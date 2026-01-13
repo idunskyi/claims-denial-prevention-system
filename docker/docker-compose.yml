@@ -1,0 +1,10 @@
+include:
+  - path: ./docker-compose.launchpad.yml
+  - path: ./docker-compose.supabase.yml
+#  - path: ./docker-compose.caddy.yml
+
+networks:
+  default:
+    driver: bridge
+    external: true
+    name: "${PROJECT_NAME}-network"

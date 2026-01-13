@@ -1,0 +1,21 @@
+FROM python:3.13.7-slim-bookworm
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
+
+RUN groupadd -r celery && useradd -r -g celery celery
+
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+WORKDIR /app
+
+ADD pyproject.toml .
+RUN uv pip install --system -r pyproject.toml
+RUN uv pip install --system watchdog
+
+ADD app/ /app
+
+RUN chown -R celery:celery /app
+
+USER celery
+
+CMD ["sh", "-c", "watchmedo auto-restart --directory=./ --pattern='*.py' --recursive -- celery -A worker.config worker --loglevel=info --concurrency=1"]

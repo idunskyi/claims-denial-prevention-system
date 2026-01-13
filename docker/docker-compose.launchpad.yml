@@ -1,0 +1,155 @@
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.api
+    container_name: "${PROJECT_NAME}-launchpad-api"
+    depends_on:
+      - db
+      - redis
+    ports:
+      - "127.0.0.1:8080:8080"
+    restart: always
+    volumes:
+      - ./../app/:/app
+    environment:
+      - PROJECT_NAME=${PROJECT_NAME}
+      - DATABASE_HOST=${POSTGRES_HOST}
+      - DATABASE_NAME=${POSTGRES_DB}
+      - DATABASE_USER=postgres
+      - DATABASE_PASSWORD=${POSTGRES_PASSWORD}
+      - DATABASE_PORT=${POSTGRES_PORT}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - AZURE_OPENAI_ENDPOINT=${AZURE_OPENAI_ENDPOINT}
+      - AZURE_OPENAI_API_KEY=${AZURE_OPENAI_API_KEY}
+      - OPENAI_API_VERSION=${OPENAI_API_VERSION}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - OLLAMA_BASE_URL=${OLLAMA_BASE_URL}
+      - BEDROCK_AWS_ACCESS_KEY_ID=${BEDROCK_AWS_ACCESS_KEY_ID}
+      - BEDROCK_AWS_SECRET_ACCESS_KEY=${BEDROCK_AWS_SECRET_ACCESS_KEY}
+      - BEDROCK_AWS_REGION=${BEDROCK_AWS_REGION}
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - GOOGLE_APPLICATION_CREDENTIALS=${GOOGLE_APPLICATION_CREDENTIALS}
+      - GOOGLE_VERTEX_AI_LOCATION=${GOOGLE_VERTEX_AI_LOCATION}
+      - MISTRAL_API_KEY=${MISTRAL_API_KEY}
+      - LANGFUSE_SECRET_KEY=${LANGFUSE_SECRET_KEY}
+      - LANGFUSE_PUBLIC_KEY=${LANGFUSE_PUBLIC_KEY}
+      - LANGFUSE_BASE_URL=${LANGFUSE_BASE_URL}
+
+  celery_worker:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.celery
+    container_name: "${PROJECT_NAME}-launchpad-celery-worker"
+    depends_on:
+      - api
+    restart: always
+    volumes:
+      - ./../app:/app
+    environment:
+      - PROJECT_NAME=${PROJECT_NAME}
+      - DATABASE_HOST=${POSTGRES_HOST}
+      - DATABASE_NAME=${POSTGRES_DB}
+      - DATABASE_USER=postgres
+      - DATABASE_PASSWORD=${POSTGRES_PASSWORD}
+      - DATABASE_PORT=${POSTGRES_PORT}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - AZURE_OPENAI_ENDPOINT=${AZURE_OPENAI_ENDPOINT}
+      - AZURE_OPENAI_API_KEY=${AZURE_OPENAI_API_KEY}
+      - OPENAI_API_VERSION=${OPENAI_API_VERSION}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - OLLAMA_BASE_URL=${OLLAMA_BASE_URL}
+      - BEDROCK_AWS_ACCESS_KEY_ID=${BEDROCK_AWS_ACCESS_KEY_ID}
+      - BEDROCK_AWS_SECRET_ACCESS_KEY=${BEDROCK_AWS_SECRET_ACCESS_KEY}
+      - BEDROCK_AWS_REGION=${BEDROCK_AWS_REGION}
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - GOOGLE_APPLICATION_CREDENTIALS=${GOOGLE_APPLICATION_CREDENTIALS}
+      - GOOGLE_VERTEX_AI_LOCATION=${GOOGLE_VERTEX_AI_LOCATION}
+      - MISTRAL_API_KEY=${MISTRAL_API_KEY}
+      - LANGFUSE_SECRET_KEY=${LANGFUSE_SECRET_KEY}
+      - LANGFUSE_PUBLIC_KEY=${LANGFUSE_PUBLIC_KEY}
+      - LANGFUSE_BASE_URL=${LANGFUSE_BASE_URL}
+
+  redis:
+    container_name: "${PROJECT_NAME}-launchpad-redis"
+    healthcheck:
+      interval: 30s
+      retries: 5
+      test:
+        [
+          "CMD",
+          "redis-cli",
+          "ping"
+        ]
+      timeout: 10s
+    image: redis:latest
+    restart: always
+    volumes:
+      - redis-data:/data
+
+  db:
+    container_name: "${PROJECT_NAME}-launchpad-db"
+    image: supabase/postgres:15.8.1.085
+    restart: unless-stopped
+#    Uncomment to expose Postgres port to host
+    ports: 
+      - "127.0.0.1:5436:5433"
+    volumes:
+      - ./volumes/db/realtime.sql:/docker-entrypoint-initdb.d/migrations/99-realtime.sql:Z
+      # Must be superuser to create event trigger
+      - ./volumes/db/webhooks.sql:/docker-entrypoint-initdb.d/init-scripts/98-webhooks.sql:Z
+      # Must be superuser to alter reserved role
+      - ./volumes/db/roles.sql:/docker-entrypoint-initdb.d/init-scripts/99-roles.sql:Z
+      # Enable pgvector extension for vector similarity search (denial prevention)
+      - ./volumes/db/pgvector.sql:/docker-entrypoint-initdb.d/init-scripts/00-pgvector.sql:Z
+      # Initialize the database settings with JWT_SECRET and JWT_EXP
+      - ./volumes/db/jwt.sql:/docker-entrypoint-initdb.d/init-scripts/99-jwt.sql:Z
+      # PGDATA directory is persisted between restarts
+      - db-data:/var/lib/postgresql/data:Z
+      # Changes required for internal supabase data such as _analytics
+      - ./volumes/db/_supabase.sql:/docker-entrypoint-initdb.d/migrations/97-_supabase.sql:Z
+      # Changes required for Analytics support
+      - ./volumes/db/logs.sql:/docker-entrypoint-initdb.d/migrations/99-logs.sql:Z
+      # Changes required for Pooler support
+      - ./volumes/db/pooler.sql:/docker-entrypoint-initdb.d/migrations/99-pooler.sql:Z
+      # Use named volume to persist pgsodium decryption key between restarts
+      - db-config:/etc/postgresql-custom
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "pg_isready",
+          "-U",
+          "postgres",
+          "-h",
+          "localhost"
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    environment:
+      POSTGRES_HOST: /var/run/postgresql
+      PGPORT: ${POSTGRES_PORT}
+      POSTGRES_PORT: ${POSTGRES_PORT}
+      PGPASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      PGDATABASE: ${POSTGRES_DB}
+      POSTGRES_DB: ${POSTGRES_DB}
+      JWT_SECRET: ${JWT_SECRET}
+      JWT_EXP: ${JWT_EXPIRY}
+    command:
+      [
+        "postgres",
+        "-c",
+        "config_file=/etc/postgresql/postgresql.conf",
+        "-c",
+        "log_min_messages=fatal" # prevents Realtime polling queries from appearing in logs
+      ]
+
+volumes:
+  db-config:
+    name: "${PROJECT_NAME}-db-config"
+  db-data:
+    name: "${PROJECT_NAME}-db-data"
+  redis-data:
+    name: "${PROJECT_NAME}-redis-data"
