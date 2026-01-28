@@ -1,4 +1,4 @@
-# 🏥 AI-Powered Healthcare Claims Denial Prevention System
+# AI-Powered Healthcare Claims Denial Prevention System
 
 ## 🎯 Problem Statement
 
