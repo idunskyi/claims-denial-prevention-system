@@ -1,0 +1,33 @@
+{
+  "claim_id": "9d66c3b1-738f-4857-bb78-6f0cb998c385",
+  "original_fhir_id": "55087eb9-d0fe-bcab-7b87-f42673b22ed7",
+  "timestamp": "2026-01-27T16:49:19.336016",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "provider_npi": "1234567890",
+  "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "facility_type": "outpatient",
+  "service_date": "2025-11-15",
+  "submission_date": "2025-11-16",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "314076",
+      "original_code": "314076",
+      "system": "SNOMED",
+      "display": "lisinopril 10 MG Oral Tablet"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 0.91,
+  "currency": "USD",
+  "payer_name": "Medicare",
+  "payer_id": "medicare",
+  "plan_type": "POS",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "category": "bundling",
+    "carc_code": "97",
+    "denial_reason": "Service included in payment for primary procedure per NCCI edits",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "99213",
+        "36415"
+      ]
+    },
+    "remediation": "Review CCI edits. If services are separately identifiable and documented, use appropriate modifier (59, XE, XP, XS, XU).",
+    "appeal_template": "Services were distinct and separately identifiable. [Procedure] was performed at a different anatomic site/session/encounter.",
+    "success_rate": 0.5,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "4688a198-1444-44b4-b56b-4d55ba9a142e",
+    "created_at": "2026-01-27T16:51:31.468179",
+    "embedding": null,
+    "embedding_text": "bundling Service included in payment for primary procedure per NCCI edits Review CCI edits. If services are separately identifiable and documented, use appropriate modifier (59, XE, XP, XS, XU)."
+  },
+  {
+    "category": "bundling",
+    "carc_code": "97",
+    "denial_reason": "Global surgical package - service included in surgical payment",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "99213"
+      ]
+    },
+    "remediation": "Verify service is outside global period or use modifier 24 (unrelated E/M during postoperative period) or 25 (significant, separately identifiable E/M).",
+    "appeal_template": "E/M service on [date] was for condition unrelated to [surgery] performed on [date]. Modifier 24 appropriately indicates unrelated service.",
+    "success_rate": 0.65,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "c9ef83ca-b633-4fa0-8d49-76dc8ac66028",
+    "created_at": "2026-01-27T16:51:31.468181",
+    "embedding": null,
+    "embedding_text": "bundling Global surgical package - service included in surgical payment Verify service is outside global period or use modifier 24 (unrelated E/M during postoperative period) or 25 (significant, separately identifiable E/M)."
+  }
+]

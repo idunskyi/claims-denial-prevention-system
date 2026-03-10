@@ -1,0 +1,33 @@
+{
+  "claim_id": "bd20ec44-fed4-4497-a78c-3a24e1601903",
+  "original_fhir_id": "55087eb9-d0fe-bcab-a751-4c9455be9db5",
+  "timestamp": "2026-01-27T16:49:19.354289",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC",
+  "provider_npi": "1234567890",
+  "facility_name": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC",
+  "facility_type": "outpatient",
+  "service_date": "2025-09-10",
+  "submission_date": "2025-09-11",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "308136",
+      "original_code": "308136",
+      "system": "SNOMED",
+      "display": "amLODIPine 2.5 MG Oral Tablet"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 0.91,
+  "currency": "USD",
+  "payer_name": "Medicaid",
+  "payer_id": "medicaid",
+  "plan_type": "EPO",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

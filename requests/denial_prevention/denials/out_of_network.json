@@ -1,0 +1,35 @@
+[
+  {
+    "category": "out_of_network",
+    "carc_code": "242",
+    "denial_reason": "Services not provided by in-network provider",
+    "trigger_patterns": {},
+    "remediation": "Document lack of in-network providers for specialty. Request in-network exception or gap exception for continuity of care.",
+    "appeal_template": "No in-network providers available within [distance] miles for [specialty]. Request in-network exception per [state law/plan provision].",
+    "success_rate": 0.55,
+    "typical_payers": [
+      "HMO",
+      "EPO"
+    ],
+    "id": "5fb797fc-69c2-4741-aec7-56f655a6c875",
+    "created_at": "2026-01-27T16:51:31.468163",
+    "embedding": null,
+    "embedding_text": "out_of_network Services not provided by in-network provider Document lack of in-network providers for specialty. Request in-network exception or gap exception for continuity of care."
+  },
+  {
+    "category": "out_of_network",
+    "carc_code": "243",
+    "denial_reason": "Referral not obtained from primary care provider",
+    "trigger_patterns": {},
+    "remediation": "Obtain retroactive referral from PCP if possible. Appeal citing urgent/emergent circumstances if applicable.",
+    "appeal_template": "Services were [urgent/emergent], precluding standard referral process. Retroactive referral obtained on [date].",
+    "success_rate": 0.6,
+    "typical_payers": [
+      "HMO"
+    ],
+    "id": "c296a7e3-077c-4b17-87de-5a45c9bbaad9",
+    "created_at": "2026-01-27T16:51:31.468166",
+    "embedding": null,
+    "embedding_text": "out_of_network Referral not obtained from primary care provider Obtain retroactive referral from PCP if possible. Appeal citing urgent/emergent circumstances if applicable."
+  }
+]

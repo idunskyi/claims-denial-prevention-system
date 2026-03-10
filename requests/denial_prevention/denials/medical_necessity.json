@@ -1,0 +1,120 @@
+[
+  {
+    "category": "medical_necessity",
+    "carc_code": "50",
+    "denial_reason": "Service not deemed medically necessary based on submitted diagnosis codes",
+    "trigger_patterns": {
+      "diagnosis_codes": [
+        "Z00.00",
+        "Z00.01"
+      ],
+      "procedure_codes": [
+        "99214",
+        "99215"
+      ]
+    },
+    "remediation": "Provide additional clinical documentation supporting medical necessity. Include chief complaint, detailed HPI, and clinical findings that justify the service level.",
+    "appeal_template": "The patient presented with [symptoms] requiring thorough evaluation. Clinical examination revealed [findings]. The complexity of medical decision-making warranted the service level billed.",
+    "success_rate": 0.65,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "4f4abac0-0cee-4afe-ba6f-03340cc44804",
+    "created_at": "2026-01-27T16:51:31.468042",
+    "embedding": null,
+    "embedding_text": "medical_necessity Service not deemed medically necessary based on submitted diagnosis codes Provide additional clinical documentation supporting medical necessity. Include chief complaint, detailed HPI, and clinical findings that justify the service level."
+  },
+  {
+    "category": "medical_necessity",
+    "carc_code": "57",
+    "denial_reason": "Imaging study not supported by diagnosis",
+    "trigger_patterns": {
+      "diagnosis_codes": [
+        "M54.5",
+        "M54.2"
+      ],
+      "procedure_codes": [
+        "72148",
+        "72149",
+        "72158"
+      ]
+    },
+    "remediation": "Document failed conservative treatment (6+ weeks physical therapy, NSAIDs). Include red flag symptoms if present (neurological deficits, progressive weakness).",
+    "appeal_template": "Patient has failed conservative management including [treatments] for [duration]. Progressive symptoms warrant imaging to rule out serious pathology.",
+    "success_rate": 0.72,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "c8f833bd-7ee5-4a31-bc6c-f5227c38a222",
+    "created_at": "2026-01-27T16:51:31.468096",
+    "embedding": null,
+    "embedding_text": "medical_necessity Imaging study not supported by diagnosis Document failed conservative treatment (6+ weeks physical therapy, NSAIDs). Include red flag symptoms if present (neurological deficits, progressive weakness)."
+  },
+  {
+    "category": "medical_necessity",
+    "carc_code": "50",
+    "denial_reason": "Preventive service billed with illness diagnosis",
+    "trigger_patterns": {
+      "diagnosis_codes": [
+        "J06.9",
+        "J02.9"
+      ],
+      "procedure_codes": [
+        "99395",
+        "99396"
+      ]
+    },
+    "remediation": "Separate preventive and problem-focused services. Use modifier 25 for E/M if both are provided on same date.",
+    "appeal_template": "Patient was seen for scheduled preventive visit. An additional problem-focused service was provided for [condition]. Both services are separately identifiable.",
+    "success_rate": 0.85,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "5605b924-74d3-4643-befa-062102c61435",
+    "created_at": "2026-01-27T16:51:31.468100",
+    "embedding": null,
+    "embedding_text": "medical_necessity Preventive service billed with illness diagnosis Separate preventive and problem-focused services. Use modifier 25 for E/M if both are provided on same date."
+  },
+  {
+    "category": "medical_necessity",
+    "carc_code": "151",
+    "denial_reason": "Documentation does not support level of service billed",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "99215",
+        "99205"
+      ]
+    },
+    "remediation": "Ensure documentation meets 2021 E/M guidelines: document time OR medical decision making (MDM) complexity including diagnoses addressed, data reviewed, and risk.",
+    "appeal_template": "Documentation demonstrates [MDM complexity level] based on: [number] diagnoses addressed, [data elements] reviewed, and [risk level] of treatment options.",
+    "success_rate": 0.55,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "e3d252fc-2e2c-4256-a3d8-63c4e155eb9d",
+    "created_at": "2026-01-27T16:51:31.468103",
+    "embedding": null,
+    "embedding_text": "medical_necessity Documentation does not support level of service billed Ensure documentation meets 2021 E/M guidelines: document time OR medical decision making (MDM) complexity including diagnoses addressed, data reviewed, and risk."
+  },
+  {
+    "category": "medical_necessity",
+    "carc_code": "56",
+    "denial_reason": "Experimental/investigational procedure not covered",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "0402T",
+        "0403T"
+      ]
+    },
+    "remediation": "Provide peer-reviewed literature supporting efficacy. Consider patient assistance programs or self-pay options.",
+    "appeal_template": "This procedure has demonstrated efficacy in [studies]. Patient has exhausted standard treatment options including [treatments].",
+    "success_rate": 0.25,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "9a9ea7a4-6fdc-45b6-bb8c-f411553d9f4f",
+    "created_at": "2026-01-27T16:51:31.468106",
+    "embedding": null,
+    "embedding_text": "medical_necessity Experimental/investigational procedure not covered Provide peer-reviewed literature supporting efficacy. Consider patient assistance programs or self-pay options."
+  }
+]

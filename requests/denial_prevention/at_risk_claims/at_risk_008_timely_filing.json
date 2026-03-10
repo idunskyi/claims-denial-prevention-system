@@ -1,0 +1,67 @@
+{
+  "claim_id": "b19aae34-8f2a-49d5-a2cb-6d12db944627",
+  "original_fhir_id": "55087eb9-d0fe-bcab-03c4-3b30922d7e3e",
+  "timestamp": "2026-01-27T16:49:19.354121",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "provider_npi": "1234567890",
+  "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "facility_type": "outpatient",
+  "service_date": "2025-10-26",
+  "submission_date": "2026-01-27",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "439740005",
+      "original_code": "439740005",
+      "system": "SNOMED",
+      "display": "Postoperative follow-up visit (procedure)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "24356-8",
+      "original_code": "24356-8",
+      "system": "SNOMED",
+      "display": "Urinalysis complete panel - Urine"
+    },
+    {
+      "code": "473231009",
+      "original_code": "473231009",
+      "system": "SNOMED",
+      "display": "Renal disorder medication review (procedure)"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 1229.12,
+  "currency": "USD",
+  "payer_name": "Aetna",
+  "payer_id": "blue_cross_blue_shield",
+  "plan_type": "PPO",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null,
+  "risk_factors": [
+    "timely_filing_risk"
+  ],
+  "expected_denial_category": "timely_filing"
+}

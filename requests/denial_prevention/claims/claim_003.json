@@ -1,0 +1,224 @@
+{
+  "claim_id": "eb73f686-83ee-4f07-a4a3-95f9453542b9",
+  "original_fhir_id": "55087eb9-d0fe-bcab-0974-ac6661fc88ac",
+  "timestamp": "2026-01-27T16:49:19.351478",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "FIRST CHOICE HEALTHCARE, INC.",
+  "provider_npi": "1234567890",
+  "facility_name": "FIRST CHOICE HEALTHCARE, INC.",
+  "facility_type": "inpatient",
+  "service_date": "2025-12-17",
+  "submission_date": "2025-12-27",
+  "diagnosis_codes": [
+  {
+    "code": "C34.90",
+    "system": "ICD-10",
+    "display": "Malignant neoplasm of unspecified part of unspecified bronchus or lung"
+  },
+  {
+    "code": "Z51.5",
+    "system": "ICD-10",
+    "display": "Encounter for palliative care"
+  }
+  ],
+  "procedure_codes": [
+    {
+      "code": "305336008",
+      "original_code": "305336008",
+      "system": "SNOMED",
+      "display": "Admission to hospice (procedure)"
+    },
+    {
+      "code": "310417005",
+      "original_code": "310417005",
+      "system": "SNOMED",
+      "display": "Certification procedure (procedure)"
+    },
+    {
+      "code": "185087000",
+      "original_code": "185087000",
+      "system": "SNOMED",
+      "display": "Notifications (procedure)"
+    },
+    {
+      "code": "315639002",
+      "original_code": "315639002",
+      "system": "SNOMED",
+      "display": "Initial patient assessment (procedure)"
+    },
+    {
+      "code": "370789001",
+      "original_code": "370789001",
+      "system": "SNOMED",
+      "display": "Development of individualized plan of care (procedure)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "385763009",
+      "original_code": "385763009",
+      "system": "SNOMED",
+      "display": "Hospice care (regime/therapy)"
+    },
+    {
+      "code": "58000006",
+      "original_code": "58000006",
+      "system": "SNOMED",
+      "display": "Patient discharge (procedure)"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 13079.53,
+  "currency": "USD",
+  "payer_name": "UnitedHealthcare",
+  "payer_id": "unitedhealthcare",
+  "plan_type": "Medicare",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

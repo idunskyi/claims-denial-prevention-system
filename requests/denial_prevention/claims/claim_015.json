@@ -1,0 +1,33 @@
+{
+  "claim_id": "9a37743d-b009-4d72-af4c-edde4c6c8eec",
+  "original_fhir_id": "55087eb9-d0fe-bcab-7fda-6edb2cd168be",
+  "timestamp": "2026-01-27T16:49:19.343441",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "Fitchburg Outpatient Clinic",
+  "provider_npi": "1234567890",
+  "facility_name": "Fitchburg Outpatient Clinic",
+  "facility_type": "outpatient",
+  "service_date": "2025-09-05",
+  "submission_date": "2025-09-15",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "1234995",
+      "original_code": "1234995",
+      "system": "SNOMED",
+      "display": "Rocuronium bromide 10 MG/ML Injectable Solution"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 0.5,
+  "currency": "USD",
+  "payer_name": "Blue Cross Blue Shield",
+  "payer_id": "blue_cross_blue_shield",
+  "plan_type": "EPO",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

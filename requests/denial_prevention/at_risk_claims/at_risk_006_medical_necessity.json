@@ -1,0 +1,44 @@
+{
+  "claim_id": "5c46152d-2fb3-4115-8ffb-b785d7940b74",
+  "original_fhir_id": "55087eb9-d0fe-bcab-7214-2d5e263c7e51",
+  "timestamp": "2026-01-27T16:49:19.334465",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "provider_npi": "1234567890",
+  "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "facility_type": "outpatient",
+  "service_date": "2025-10-21",
+  "submission_date": "2025-10-26",
+  "diagnosis_codes": [
+    {
+      "code": "Z00.00",
+      "system": "ICD-10",
+      "display": "Encounter for general adult medical examination without abnormal findings"
+    }
+  ],
+  "procedure_codes": [
+    {
+      "code": "99215",
+      "original_code": "99215",
+      "system": "CPT",
+      "display": "Office visit, established patient, high complexity"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 250.0,
+  "currency": "USD",
+  "payer_name": "Medicaid",
+  "payer_id": "medicaid",
+  "plan_type": "PPO",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null,
+  "risk_factors": [
+    "diagnosis_procedure_mismatch",
+    "upcoding_risk"
+  ],
+  "expected_denial_category": "medical_necessity"
+}

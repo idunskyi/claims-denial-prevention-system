@@ -1,0 +1,33 @@
+{
+  "claim_id": "ac73bd58-0bbd-4590-a5f4-2ba0e233fefe",
+  "original_fhir_id": "55087eb9-d0fe-bcab-c7e5-18e4c5cf687b",
+  "timestamp": "2026-01-27T16:49:19.350088",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "provider_npi": "1234567890",
+  "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "facility_type": "outpatient",
+  "service_date": "2026-01-20",
+  "submission_date": "2026-01-27",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "205923",
+      "original_code": "205923",
+      "system": "SNOMED",
+      "display": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 29.21,
+  "currency": "USD",
+  "payer_name": "UnitedHealthcare",
+  "payer_id": "unitedhealthcare",
+  "plan_type": "Medicare",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

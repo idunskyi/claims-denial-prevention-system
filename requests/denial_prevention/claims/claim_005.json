@@ -1,0 +1,133 @@
+{
+  "claim_id": "9af27077-cd95-4b69-8bd2-4479beb4fe9e",
+  "original_fhir_id": "55087eb9-d0fe-bcab-1cea-ea88ae0021b7",
+  "timestamp": "2026-01-27T16:49:19.337914",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BENJAMIN HEALTHCARE CENTER",
+  "provider_npi": "1234567890",
+  "facility_name": "BENJAMIN HEALTHCARE CENTER",
+  "facility_type": "inpatient",
+  "service_date": "2025-09-23",
+  "submission_date": "2025-09-24",
+  "diagnosis_codes": [
+    {
+      "code": "314529007",
+      "system": "SNOMED",
+      "display": "Medication review due (situation)"
+    },
+    {
+      "code": "160904001",
+      "system": "SNOMED",
+      "display": "Part-time employment (finding)"
+    },
+    {
+      "code": "73595000",
+      "system": "SNOMED",
+      "display": "Stress (finding)"
+    }
+  ],
+  "procedure_codes": [
+    {
+      "code": "50849002",
+      "original_code": "50849002",
+      "system": "SNOMED",
+      "display": "Emergency room admission (procedure)"
+    },
+    {
+      "code": "314529007",
+      "original_code": "314529007",
+      "system": "SNOMED",
+      "display": "Medication review due (situation)"
+    },
+    {
+      "code": "99214",
+      "original_code": "430193006",
+      "system": "CPT",
+      "display": "Medication reconciliation (procedure)"
+    },
+    {
+      "code": "24321-2",
+      "original_code": "24321-2",
+      "system": "SNOMED",
+      "display": "Basic metabolic 2000 panel - Serum or Plasma"
+    },
+    {
+      "code": "24357-6",
+      "original_code": "24357-6",
+      "system": "SNOMED",
+      "display": "Urinalysis macro (dipstick) panel - Urine"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic metabolic panel - Blood"
+    },
+    {
+      "code": "57698-3",
+      "original_code": "57698-3",
+      "system": "SNOMED",
+      "display": "Lipid panel with direct LDL - Serum or Plasma"
+    },
+    {
+      "code": "99406",
+      "original_code": "710824005",
+      "system": "CPT",
+      "display": "Assessment of health and social care needs (procedure)"
+    },
+    {
+      "code": "160904001",
+      "original_code": "160904001",
+      "system": "SNOMED",
+      "display": "Part-time employment (finding)"
+    },
+    {
+      "code": "73595000",
+      "original_code": "73595000",
+      "system": "SNOMED",
+      "display": "Stress (finding)"
+    },
+    {
+      "code": "762993000",
+      "original_code": "762993000",
+      "system": "SNOMED",
+      "display": "Assessment using Morse Fall Scale (procedure)"
+    },
+    {
+      "code": "59453-1",
+      "original_code": "59453-1",
+      "system": "SNOMED",
+      "display": "Morse Fall Scale panel"
+    },
+    {
+      "code": "866148006",
+      "original_code": "866148006",
+      "system": "SNOMED",
+      "display": "Screening for domestic abuse (procedure)"
+    },
+    {
+      "code": "76499-3",
+      "original_code": "76499-3",
+      "system": "SNOMED",
+      "display": "Humiliation, Afraid, Rape, and Kick questionnaire [HARK]"
+    },
+    {
+      "code": "103697008",
+      "original_code": "103697008",
+      "system": "SNOMED",
+      "display": "Patient referral for dental care (procedure)"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 1133.49,
+  "currency": "USD",
+  "payer_name": "Medicare",
+  "payer_id": "medicare",
+  "plan_type": "POS",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

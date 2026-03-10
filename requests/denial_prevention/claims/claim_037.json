@@ -1,0 +1,99 @@
+{
+  "claim_id": "cb6611a7-22a3-41c6-88ce-4bdbccf62637",
+  "original_fhir_id": "55087eb9-d0fe-bcab-8f44-f5710c9221fd",
+  "timestamp": "2026-01-27T16:49:19.342880",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "provider_npi": "1234567890",
+  "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "facility_type": "outpatient",
+  "service_date": "2026-01-26",
+  "submission_date": "2026-02-07",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "99213",
+      "original_code": "185349003",
+      "system": "CPT",
+      "display": "Encounter for check up (procedure)"
+    },
+    {
+      "code": "34043003",
+      "original_code": "34043003",
+      "system": "SNOMED",
+      "display": "Dental consultation and report (procedure)"
+    },
+    {
+      "code": "225362009",
+      "original_code": "225362009",
+      "system": "SNOMED",
+      "display": "Dental care (regime/therapy)"
+    },
+    {
+      "code": "277183007",
+      "original_code": "277183007",
+      "system": "SNOMED",
+      "display": "Dental equipment (physical object)"
+    },
+    {
+      "code": "1230220004",
+      "original_code": "1230220004",
+      "system": "SNOMED",
+      "display": "Conventional release periodontal gel (dose form)"
+    },
+    {
+      "code": "469020004",
+      "original_code": "469020004",
+      "system": "SNOMED",
+      "display": "Dental floss (physical object)"
+    },
+    {
+      "code": "1260009003",
+      "original_code": "1260009003",
+      "system": "SNOMED",
+      "display": "Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)"
+    },
+    {
+      "code": "1260010008",
+      "original_code": "1260010008",
+      "system": "SNOMED",
+      "display": "Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)"
+    },
+    {
+      "code": "706298007",
+      "original_code": "706298007",
+      "system": "SNOMED",
+      "display": "Dental x-ray system (physical object)"
+    },
+    {
+      "code": "241046008",
+      "original_code": "241046008",
+      "system": "SNOMED",
+      "display": "Dental plain X-ray bitewing (procedure)"
+    },
+    {
+      "code": "274788003",
+      "original_code": "274788003",
+      "system": "SNOMED",
+      "display": "Examination of gingivae (procedure)"
+    },
+    {
+      "code": "243085009",
+      "original_code": "243085009",
+      "system": "SNOMED",
+      "display": "Oral health education (procedure)"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 3105.35,
+  "currency": "USD",
+  "payer_name": "Aetna",
+  "payer_id": "aetna",
+  "plan_type": "Medicare",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

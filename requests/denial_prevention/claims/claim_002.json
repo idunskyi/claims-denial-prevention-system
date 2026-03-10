@@ -1,0 +1,39 @@
+{
+  "claim_id": "84517a39-854e-4c8f-8090-ecab8a76cca7",
+  "original_fhir_id": "55087eb9-d0fe-bcab-ee75-52b8c3b2fcd9",
+  "timestamp": "2026-01-27T16:49:19.341348",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BENJAMIN HEALTHCARE CENTER",
+  "provider_npi": "1234567890",
+  "facility_name": "BENJAMIN HEALTHCARE CENTER",
+  "facility_type": "office",
+  "service_date": "2025-09-30",
+  "submission_date": "2025-10-09",
+  "diagnosis_codes": [
+    {
+      "code": "I10",
+      "system": "ICD-10",
+      "display": "Essential (primary) hypertension"
+    }
+  ],
+  "procedure_codes": [
+    {
+      "code": "99213",
+      "original_code": "99213",
+      "system": "CPT",
+      "display": "Office or other outpatient visit, established patient"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "11",
+  "billed_amount": 89.00,
+  "currency": "USD",
+  "payer_name": "Cigna",
+  "payer_id": "cigna",
+  "plan_type": "PPO",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": "Established patient follow-up for hypertension; BP reviewed, meds tolerated, no acute symptoms."
+}

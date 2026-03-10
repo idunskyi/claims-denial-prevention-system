@@ -1,0 +1,615 @@
+[
+  {
+    "category": "medical_necessity",
+    "carc_code": "50",
+    "denial_reason": "Service not deemed medically necessary based on submitted diagnosis codes",
+    "trigger_patterns": {
+      "diagnosis_codes": [
+        "Z00.00",
+        "Z00.01"
+      ],
+      "procedure_codes": [
+        "99214",
+        "99215"
+      ]
+    },
+    "remediation": "Provide additional clinical documentation supporting medical necessity. Include chief complaint, detailed HPI, and clinical findings that justify the service level.",
+    "appeal_template": "The patient presented with [symptoms] requiring thorough evaluation. Clinical examination revealed [findings]. The complexity of medical decision-making warranted the service level billed.",
+    "success_rate": 0.65,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "4f4abac0-0cee-4afe-ba6f-03340cc44804",
+    "created_at": "2026-01-27T16:51:31.468042",
+    "embedding": null,
+    "embedding_text": "medical_necessity Service not deemed medically necessary based on submitted diagnosis codes Provide additional clinical documentation supporting medical necessity. Include chief complaint, detailed HPI, and clinical findings that justify the service level."
+  },
+  {
+    "category": "medical_necessity",
+    "carc_code": "57",
+    "denial_reason": "Imaging study not supported by diagnosis",
+    "trigger_patterns": {
+      "diagnosis_codes": [
+        "M54.5",
+        "M54.2"
+      ],
+      "procedure_codes": [
+        "72148",
+        "72149",
+        "72158"
+      ]
+    },
+    "remediation": "Document failed conservative treatment (6+ weeks physical therapy, NSAIDs). Include red flag symptoms if present (neurological deficits, progressive weakness).",
+    "appeal_template": "Patient has failed conservative management including [treatments] for [duration]. Progressive symptoms warrant imaging to rule out serious pathology.",
+    "success_rate": 0.72,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "c8f833bd-7ee5-4a31-bc6c-f5227c38a222",
+    "created_at": "2026-01-27T16:51:31.468096",
+    "embedding": null,
+    "embedding_text": "medical_necessity Imaging study not supported by diagnosis Document failed conservative treatment (6+ weeks physical therapy, NSAIDs). Include red flag symptoms if present (neurological deficits, progressive weakness)."
+  },
+  {
+    "category": "medical_necessity",
+    "carc_code": "50",
+    "denial_reason": "Preventive service billed with illness diagnosis",
+    "trigger_patterns": {
+      "diagnosis_codes": [
+        "J06.9",
+        "J02.9"
+      ],
+      "procedure_codes": [
+        "99395",
+        "99396"
+      ]
+    },
+    "remediation": "Separate preventive and problem-focused services. Use modifier 25 for E/M if both are provided on same date.",
+    "appeal_template": "Patient was seen for scheduled preventive visit. An additional problem-focused service was provided for [condition]. Both services are separately identifiable.",
+    "success_rate": 0.85,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "5605b924-74d3-4643-befa-062102c61435",
+    "created_at": "2026-01-27T16:51:31.468100",
+    "embedding": null,
+    "embedding_text": "medical_necessity Preventive service billed with illness diagnosis Separate preventive and problem-focused services. Use modifier 25 for E/M if both are provided on same date."
+  },
+  {
+    "category": "medical_necessity",
+    "carc_code": "151",
+    "denial_reason": "Documentation does not support level of service billed",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "99215",
+        "99205"
+      ]
+    },
+    "remediation": "Ensure documentation meets 2021 E/M guidelines: document time OR medical decision making (MDM) complexity including diagnoses addressed, data reviewed, and risk.",
+    "appeal_template": "Documentation demonstrates [MDM complexity level] based on: [number] diagnoses addressed, [data elements] reviewed, and [risk level] of treatment options.",
+    "success_rate": 0.55,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "e3d252fc-2e2c-4256-a3d8-63c4e155eb9d",
+    "created_at": "2026-01-27T16:51:31.468103",
+    "embedding": null,
+    "embedding_text": "medical_necessity Documentation does not support level of service billed Ensure documentation meets 2021 E/M guidelines: document time OR medical decision making (MDM) complexity including diagnoses addressed, data reviewed, and risk."
+  },
+  {
+    "category": "medical_necessity",
+    "carc_code": "56",
+    "denial_reason": "Experimental/investigational procedure not covered",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "0402T",
+        "0403T"
+      ]
+    },
+    "remediation": "Provide peer-reviewed literature supporting efficacy. Consider patient assistance programs or self-pay options.",
+    "appeal_template": "This procedure has demonstrated efficacy in [studies]. Patient has exhausted standard treatment options including [treatments].",
+    "success_rate": 0.25,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "9a9ea7a4-6fdc-45b6-bb8c-f411553d9f4f",
+    "created_at": "2026-01-27T16:51:31.468106",
+    "embedding": null,
+    "embedding_text": "medical_necessity Experimental/investigational procedure not covered Provide peer-reviewed literature supporting efficacy. Consider patient assistance programs or self-pay options."
+  },
+  {
+    "category": "prior_authorization",
+    "carc_code": "197",
+    "denial_reason": "Prior authorization was not obtained before service was rendered",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "27447",
+        "27130"
+      ],
+      "prior_auth_required": true,
+      "prior_auth_number": null
+    },
+    "remediation": "Submit retroactive authorization request with clinical documentation. Many payers allow 48-72 hour grace period for urgent services.",
+    "appeal_template": "Service was rendered urgently due to [clinical urgency]. Retroactive authorization is requested based on medical necessity documentation.",
+    "success_rate": 0.45,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "8b630e62-4f45-42d7-9166-075653651d9e",
+    "created_at": "2026-01-27T16:51:31.468109",
+    "embedding": null,
+    "embedding_text": "prior_authorization Prior authorization was not obtained before service was rendered Submit retroactive authorization request with clinical documentation. Many payers allow 48-72 hour grace period for urgent services."
+  },
+  {
+    "category": "prior_authorization",
+    "carc_code": "15",
+    "denial_reason": "Authorization number is invalid or expired",
+    "trigger_patterns": {
+      "prior_auth_required": true
+    },
+    "remediation": "Verify authorization validity dates. Resubmit with correct authorization number or request extension if treatment delayed.",
+    "appeal_template": "Original authorization [number] was valid at time of scheduling. Treatment was delayed due to [reason]. Request approval for services rendered within reasonable timeframe.",
+    "success_rate": 0.8,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "5946e159-c222-4573-8454-388a96bf8dc1",
+    "created_at": "2026-01-27T16:51:31.468112",
+    "embedding": null,
+    "embedding_text": "prior_authorization Authorization number is invalid or expired Verify authorization validity dates. Resubmit with correct authorization number or request extension if treatment delayed."
+  },
+  {
+    "category": "prior_authorization",
+    "carc_code": "198",
+    "denial_reason": "Services exceeded authorized quantity or duration",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "97110",
+        "97140"
+      ]
+    },
+    "remediation": "Document continued medical necessity. Request authorization extension with updated treatment plan showing progress and remaining goals.",
+    "appeal_template": "Patient requires additional sessions due to [clinical reason]. Functional progress documented: [metrics]. Anticipated discharge in [timeframe].",
+    "success_rate": 0.7,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "5627decb-a2b4-45e4-b8a1-f4bb6381f642",
+    "created_at": "2026-01-27T16:51:31.468115",
+    "embedding": null,
+    "embedding_text": "prior_authorization Services exceeded authorized quantity or duration Document continued medical necessity. Request authorization extension with updated treatment plan showing progress and remaining goals."
+  },
+  {
+    "category": "prior_authorization",
+    "carc_code": "39",
+    "denial_reason": "Services denied at time authorization was requested",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "43239",
+        "43249"
+      ]
+    },
+    "remediation": "Appeal with additional clinical documentation. Consider peer-to-peer review with payer medical director.",
+    "appeal_template": "Initial authorization denial did not consider [additional clinical factors]. Peer-reviewed guidelines support this service for patients with [criteria].",
+    "success_rate": 0.5,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "11942572-1c42-4931-b95a-7d36fbfaa935",
+    "created_at": "2026-01-27T16:51:31.468118",
+    "embedding": null,
+    "embedding_text": "prior_authorization Services denied at time authorization was requested Appeal with additional clinical documentation. Consider peer-to-peer review with payer medical director."
+  },
+  {
+    "category": "coding_error",
+    "carc_code": "4",
+    "denial_reason": "Procedure code is inconsistent with modifier used",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "99213"
+      ],
+      "modifiers": [
+        "25"
+      ]
+    },
+    "remediation": "Modifier 25 requires separately identifiable E/M service. Remove modifier or ensure documentation supports distinct service.",
+    "appeal_template": "Modifier 25 was appropriately used to indicate a separately identifiable E/M service distinct from the procedure performed.",
+    "success_rate": 0.75,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "ffd0ac31-99dc-4d07-bd9d-f367b05e0c62",
+    "created_at": "2026-01-27T16:51:31.468122",
+    "embedding": null,
+    "embedding_text": "coding_error Procedure code is inconsistent with modifier used Modifier 25 requires separately identifiable E/M service. Remove modifier or ensure documentation supports distinct service."
+  },
+  {
+    "category": "coding_error",
+    "carc_code": "11",
+    "denial_reason": "Diagnosis code does not support procedure code",
+    "trigger_patterns": {
+      "diagnosis_codes": [
+        "Z23"
+      ],
+      "procedure_codes": [
+        "99213"
+      ]
+    },
+    "remediation": "Review diagnosis codes for specificity. Use codes that clearly indicate medical necessity for the procedure performed.",
+    "appeal_template": "Primary diagnosis [code] directly supports the medical necessity for [procedure]. Supporting documentation attached.",
+    "success_rate": 0.8,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "69a61684-e832-49c2-91bd-536ade8ef29a",
+    "created_at": "2026-01-27T16:51:31.468126",
+    "embedding": null,
+    "embedding_text": "coding_error Diagnosis code does not support procedure code Review diagnosis codes for specificity. Use codes that clearly indicate medical necessity for the procedure performed."
+  },
+  {
+    "category": "coding_error",
+    "carc_code": "5",
+    "denial_reason": "Procedure code inconsistent with place of service",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "99281",
+        "99282"
+      ],
+      "place_of_service": "11"
+    },
+    "remediation": "Verify place of service code matches where service was actually rendered. POS 11=Office, 21=Hospital Inpatient, 22=Outpatient, 23=ER.",
+    "appeal_template": "Place of service has been corrected to accurately reflect service location. Corrected claim attached.",
+    "success_rate": 0.9,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "ef08b316-e054-4069-a689-2c23d598120d",
+    "created_at": "2026-01-27T16:51:31.468129",
+    "embedding": null,
+    "embedding_text": "coding_error Procedure code inconsistent with place of service Verify place of service code matches where service was actually rendered. POS 11=Office, 21=Hospital Inpatient, 22=Outpatient, 23=ER."
+  },
+  {
+    "category": "coding_error",
+    "carc_code": "181",
+    "denial_reason": "Procedure code was invalid on the date of service",
+    "trigger_patterns": {},
+    "remediation": "Verify procedure code is valid for date of service. Check for code changes in annual CPT updates. Use successor code if applicable.",
+    "appeal_template": "Corrected claim submitted with valid procedure code [code] effective for date of service.",
+    "success_rate": 0.95,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "5a9116bc-cb79-4693-aca6-75948173fb42",
+    "created_at": "2026-01-27T16:51:31.468132",
+    "embedding": null,
+    "embedding_text": "coding_error Procedure code was invalid on the date of service Verify procedure code is valid for date of service. Check for code changes in annual CPT updates. Use successor code if applicable."
+  },
+  {
+    "category": "coding_error",
+    "carc_code": "207",
+    "denial_reason": "Required modifier is missing",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "77067"
+      ],
+      "modifiers": []
+    },
+    "remediation": "Add required modifier (e.g., bilateral modifier 50, distinct procedural service modifier 59, screening modifier 33).",
+    "appeal_template": "Claim corrected with appropriate modifier [modifier] to indicate [reason].",
+    "success_rate": 0.92,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "e2cd3cc6-aa27-48e6-a0df-1397e778538d",
+    "created_at": "2026-01-27T16:51:31.468135",
+    "embedding": null,
+    "embedding_text": "coding_error Required modifier is missing Add required modifier (e.g., bilateral modifier 50, distinct procedural service modifier 59, screening modifier 33)."
+  },
+  {
+    "category": "coding_error",
+    "carc_code": "97",
+    "denial_reason": "Service bundled with another procedure - separate payment not allowed",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "36415",
+        "99213"
+      ]
+    },
+    "remediation": "Review NCCI edits for bundling rules. Use modifier 59 or X{EPSU} only if services are truly distinct and separately documented.",
+    "appeal_template": "Services were distinct and separately identifiable per documentation. Modifier 59 appropriately indicates services were not bundled.",
+    "success_rate": 0.6,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "edc6aea3-6032-4c20-8f4f-7c01102924ab",
+    "created_at": "2026-01-27T16:51:31.468138",
+    "embedding": null,
+    "embedding_text": "coding_error Service bundled with another procedure - separate payment not allowed Review NCCI edits for bundling rules. Use modifier 59 or X{EPSU} only if services are truly distinct and separately documented."
+  },
+  {
+    "category": "duplicate",
+    "carc_code": "18",
+    "denial_reason": "Exact duplicate claim/service - already adjudicated",
+    "trigger_patterns": {},
+    "remediation": "Verify original claim status. If paid, no action needed. If denied incorrectly, submit appeal rather than new claim.",
+    "appeal_template": "This is not a duplicate submission. Original claim [number] was for [different service/date/provider]. Current claim is for distinct service.",
+    "success_rate": 0.85,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "9f30057f-6a49-460c-bdf3-77b7441ab975",
+    "created_at": "2026-01-27T16:51:31.468141",
+    "embedding": null,
+    "embedding_text": "duplicate Exact duplicate claim/service - already adjudicated Verify original claim status. If paid, no action needed. If denied incorrectly, submit appeal rather than new claim."
+  },
+  {
+    "category": "duplicate",
+    "carc_code": "59",
+    "denial_reason": "Processed under another claim - benefits applied to previous submission",
+    "trigger_patterns": {},
+    "remediation": "Request EOB for original claim to verify benefits applied. If services are distinct, appeal with documentation showing separate services.",
+    "appeal_template": "Services billed are distinct from claim [number]. Documentation demonstrates [distinguishing factors].",
+    "success_rate": 0.7,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "204ca2f3-e150-4fcb-a1d8-a1c71ff03284",
+    "created_at": "2026-01-27T16:51:31.468145",
+    "embedding": null,
+    "embedding_text": "duplicate Processed under another claim - benefits applied to previous submission Request EOB for original claim to verify benefits applied. If services are distinct, appeal with documentation showing separate services."
+  },
+  {
+    "category": "timely_filing",
+    "carc_code": "29",
+    "denial_reason": "Claim submitted after filing deadline",
+    "trigger_patterns": {},
+    "remediation": "Document reason for delay (prior payer processing, coordination of benefits, etc.). Most payers have exceptions for delays outside provider control.",
+    "appeal_template": "Timely filing exception requested. Initial submission to [payer] on [date] resulted in [outcome]. Coordination of benefits delayed secondary submission.",
+    "success_rate": 0.4,
+    "typical_payers": [
+      "all"
+    ],
+    "payer_specific_limits": {
+      "Medicare": 365,
+      "Medicaid": 365,
+      "Blue Cross Blue Shield": 180,
+      "Aetna": 90,
+      "UnitedHealthcare": 90,
+      "Cigna": 90,
+      "Humana": 365
+    },
+    "id": "5c566be8-1730-4f5c-a418-5d9aabc6895c",
+    "created_at": "2026-01-27T16:51:31.468148",
+    "embedding": null,
+    "embedding_text": "timely_filing Claim submitted after filing deadline Document reason for delay (prior payer processing, coordination of benefits, etc.). Most payers have exceptions for delays outside provider control."
+  },
+  {
+    "category": "coverage_terminated",
+    "carc_code": "27",
+    "denial_reason": "Patient coverage terminated prior to date of service",
+    "trigger_patterns": {},
+    "remediation": "Verify eligibility with patient. Bill patient directly or identify other coverage (COBRA, marketplace, Medicaid).",
+    "appeal_template": "Eligibility verification on [date] confirmed active coverage. Documentation of verification attached.",
+    "success_rate": 0.3,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "274ed9ef-e587-4928-9816-d207feed129b",
+    "created_at": "2026-01-27T16:51:31.468151",
+    "embedding": null,
+    "embedding_text": "coverage_terminated Patient coverage terminated prior to date of service Verify eligibility with patient. Bill patient directly or identify other coverage (COBRA, marketplace, Medicaid)."
+  },
+  {
+    "category": "coverage_terminated",
+    "carc_code": "26",
+    "denial_reason": "Service date is prior to coverage effective date",
+    "trigger_patterns": {},
+    "remediation": "Verify coverage dates. Consider billing retroactive coverage if patient has applied.",
+    "appeal_template": "Patient's coverage was applied retroactively per [state law/plan provision]. Updated coverage dates attached.",
+    "success_rate": 0.35,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "79325cbd-25db-42e7-a0a7-01950b590729",
+    "created_at": "2026-01-27T16:51:31.468154",
+    "embedding": null,
+    "embedding_text": "coverage_terminated Service date is prior to coverage effective date Verify coverage dates. Consider billing retroactive coverage if patient has applied."
+  },
+  {
+    "category": "non_covered_service",
+    "carc_code": "96",
+    "denial_reason": "Service is excluded from patient's benefit plan",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "D0120",
+        "D0220"
+      ]
+    },
+    "remediation": "Verify benefit coverage with payer. Consider medical necessity appeal if service is typically excluded but medically indicated.",
+    "appeal_template": "Service is medically necessary due to [condition]. Request exception to exclusion based on [medical justification].",
+    "success_rate": 0.2,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "3609e64f-9340-4dc4-82d0-25a6988c5485",
+    "created_at": "2026-01-27T16:51:31.468157",
+    "embedding": null,
+    "embedding_text": "non_covered_service Service is excluded from patient's benefit plan Verify benefit coverage with payer. Consider medical necessity appeal if service is typically excluded but medically indicated."
+  },
+  {
+    "category": "non_covered_service",
+    "carc_code": "204",
+    "denial_reason": "Service not covered under patient's current benefit plan",
+    "trigger_patterns": {},
+    "remediation": "Review plan benefits. Inform patient of non-covered status. Patient may appeal for plan exception or pay out-of-pocket.",
+    "appeal_template": "Request benefit exception based on medical necessity. Patient has no alternative covered treatment option.",
+    "success_rate": 0.25,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "355d9343-bbea-4859-8c66-d209afe8d9f8",
+    "created_at": "2026-01-27T16:51:31.468160",
+    "embedding": null,
+    "embedding_text": "non_covered_service Service not covered under patient's current benefit plan Review plan benefits. Inform patient of non-covered status. Patient may appeal for plan exception or pay out-of-pocket."
+  },
+  {
+    "category": "out_of_network",
+    "carc_code": "242",
+    "denial_reason": "Services not provided by in-network provider",
+    "trigger_patterns": {},
+    "remediation": "Document lack of in-network providers for specialty. Request in-network exception or gap exception for continuity of care.",
+    "appeal_template": "No in-network providers available within [distance] miles for [specialty]. Request in-network exception per [state law/plan provision].",
+    "success_rate": 0.55,
+    "typical_payers": [
+      "HMO",
+      "EPO"
+    ],
+    "id": "5fb797fc-69c2-4741-aec7-56f655a6c875",
+    "created_at": "2026-01-27T16:51:31.468163",
+    "embedding": null,
+    "embedding_text": "out_of_network Services not provided by in-network provider Document lack of in-network providers for specialty. Request in-network exception or gap exception for continuity of care."
+  },
+  {
+    "category": "out_of_network",
+    "carc_code": "243",
+    "denial_reason": "Referral not obtained from primary care provider",
+    "trigger_patterns": {},
+    "remediation": "Obtain retroactive referral from PCP if possible. Appeal citing urgent/emergent circumstances if applicable.",
+    "appeal_template": "Services were [urgent/emergent], precluding standard referral process. Retroactive referral obtained on [date].",
+    "success_rate": 0.6,
+    "typical_payers": [
+      "HMO"
+    ],
+    "id": "c296a7e3-077c-4b17-87de-5a45c9bbaad9",
+    "created_at": "2026-01-27T16:51:31.468166",
+    "embedding": null,
+    "embedding_text": "out_of_network Referral not obtained from primary care provider Obtain retroactive referral from PCP if possible. Appeal citing urgent/emergent circumstances if applicable."
+  },
+  {
+    "category": "documentation",
+    "carc_code": "252",
+    "denial_reason": "Additional documentation required to process claim",
+    "trigger_patterns": {},
+    "remediation": "Submit requested documentation within payer's timeframe (typically 30-45 days). Include cover letter referencing original claim.",
+    "appeal_template": "Requested documentation attached: [list documents]. Original claim reference: [claim number].",
+    "success_rate": 0.85,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "82586142-ab02-4040-b554-3f6e9e54f29c",
+    "created_at": "2026-01-27T16:51:31.468169",
+    "embedding": null,
+    "embedding_text": "documentation Additional documentation required to process claim Submit requested documentation within payer's timeframe (typically 30-45 days). Include cover letter referencing original claim."
+  },
+  {
+    "category": "documentation",
+    "carc_code": "226",
+    "denial_reason": "Information requested from provider not received",
+    "trigger_patterns": {},
+    "remediation": "Verify request was received. Submit information promptly via secure method with confirmation of receipt.",
+    "appeal_template": "Requested information was not received at this office. Information now attached. Request reconsideration.",
+    "success_rate": 0.75,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "66cb86f4-2456-4982-b09f-96f7451e5475",
+    "created_at": "2026-01-27T16:51:31.468172",
+    "embedding": null,
+    "embedding_text": "documentation Information requested from provider not received Verify request was received. Submit information promptly via secure method with confirmation of receipt."
+  },
+  {
+    "category": "documentation",
+    "carc_code": "16",
+    "denial_reason": "Claim lacks required information - cannot process",
+    "trigger_patterns": {},
+    "remediation": "Review rejection reason code for specific missing element. Correct and resubmit complete claim.",
+    "appeal_template": "Corrected claim submitted with all required information. Missing element [field] has been added.",
+    "success_rate": 0.9,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "84b34764-7253-4f42-842a-71dcbf6b569b",
+    "created_at": "2026-01-27T16:51:31.468176",
+    "embedding": null,
+    "embedding_text": "documentation Claim lacks required information - cannot process Review rejection reason code for specific missing element. Correct and resubmit complete claim."
+  },
+  {
+    "category": "bundling",
+    "carc_code": "97",
+    "denial_reason": "Service included in payment for primary procedure per NCCI edits",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "99213",
+        "36415"
+      ]
+    },
+    "remediation": "Review CCI edits. If services are separately identifiable and documented, use appropriate modifier (59, XE, XP, XS, XU).",
+    "appeal_template": "Services were distinct and separately identifiable. [Procedure] was performed at a different anatomic site/session/encounter.",
+    "success_rate": 0.5,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "4688a198-1444-44b4-b56b-4d55ba9a142e",
+    "created_at": "2026-01-27T16:51:31.468179",
+    "embedding": null,
+    "embedding_text": "bundling Service included in payment for primary procedure per NCCI edits Review CCI edits. If services are separately identifiable and documented, use appropriate modifier (59, XE, XP, XS, XU)."
+  },
+  {
+    "category": "bundling",
+    "carc_code": "97",
+    "denial_reason": "Global surgical package - service included in surgical payment",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "99213"
+      ]
+    },
+    "remediation": "Verify service is outside global period or use modifier 24 (unrelated E/M during postoperative period) or 25 (significant, separately identifiable E/M).",
+    "appeal_template": "E/M service on [date] was for condition unrelated to [surgery] performed on [date]. Modifier 24 appropriately indicates unrelated service.",
+    "success_rate": 0.65,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "c9ef83ca-b633-4fa0-8d49-76dc8ac66028",
+    "created_at": "2026-01-27T16:51:31.468181",
+    "embedding": null,
+    "embedding_text": "bundling Global surgical package - service included in surgical payment Verify service is outside global period or use modifier 24 (unrelated E/M during postoperative period) or 25 (significant, separately identifiable E/M)."
+  },
+  {
+    "category": "benefit_maximum",
+    "carc_code": "119",
+    "denial_reason": "Annual or lifetime benefit maximum reached",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "97110",
+        "97140",
+        "97530"
+      ]
+    },
+    "remediation": "Verify remaining benefits. Request exception for additional coverage due to medical necessity. Consider alternative payment arrangements.",
+    "appeal_template": "Request benefit exception. Patient requires continued treatment due to [medical necessity]. Documentation demonstrates ongoing progress toward functional goals.",
+    "success_rate": 0.35,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "c444fff7-e32f-4f91-b6e8-b4a462d529f4",
+    "created_at": "2026-01-27T16:51:31.468184",
+    "embedding": null,
+    "embedding_text": "benefit_maximum Annual or lifetime benefit maximum reached Verify remaining benefits. Request exception for additional coverage due to medical necessity. Consider alternative payment arrangements."
+  },
+  {
+    "category": "benefit_maximum",
+    "carc_code": "35",
+    "denial_reason": "Lifetime maximum benefit has been reached",
+    "trigger_patterns": {},
+    "remediation": "Inform patient of lifetime max. Explore other coverage options, charity care programs, or payment plans.",
+    "appeal_template": "Request exception to lifetime maximum. Patient's condition is [unique circumstance]. No alternative treatment options exist.",
+    "success_rate": 0.15,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "2d6aa0d8-ed2c-48a2-9ac1-dc9a0fe645da",
+    "created_at": "2026-01-27T16:51:31.468187",
+    "embedding": null,
+    "embedding_text": "benefit_maximum Lifetime maximum benefit has been reached Inform patient of lifetime max. Explore other coverage options, charity care programs, or payment plans."
+  }
+]

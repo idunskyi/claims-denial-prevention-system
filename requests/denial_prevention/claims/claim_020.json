@@ -1,0 +1,453 @@
+{
+  "claim_id": "c530e343-566a-4cf6-a2b7-e1dd155a0cc8",
+  "original_fhir_id": "55087eb9-d0fe-bcab-8a3e-60f14cb8805d",
+  "timestamp": "2026-01-27T16:49:19.354033",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "provider_npi": "1234567890",
+  "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "facility_type": "inpatient",
+  "service_date": "2025-10-21",
+  "submission_date": "2025-10-26",
+  "diagnosis_codes": [
+    {
+      "code": "161665007",
+      "system": "SNOMED",
+      "display": "History of renal transplant (situation)"
+    }
+  ],
+  "procedure_codes": [
+    {
+      "code": "305432006",
+      "original_code": "305432006",
+      "system": "SNOMED",
+      "display": "Admission to surgical transplant department (procedure)"
+    },
+    {
+      "code": "24321-2",
+      "original_code": "24321-2",
+      "system": "SNOMED",
+      "display": "Basic Metabolic 2000 Panel - Serum or Plasma"
+    },
+    {
+      "code": "24357-6",
+      "original_code": "24357-6",
+      "system": "SNOMED",
+      "display": "Urinalysis macro (dipstick) panel - Urine"
+    },
+    {
+      "code": "428830000",
+      "original_code": "428830000",
+      "system": "SNOMED",
+      "display": "Pretransplant evaluation of kidney recipient (procedure)"
+    },
+    {
+      "code": "119219003",
+      "original_code": "119219003",
+      "system": "SNOMED",
+      "display": "Kidney part (body structure)"
+    },
+    {
+      "code": "70536003",
+      "original_code": "70536003",
+      "system": "SNOMED",
+      "display": "Transplant of kidney (procedure)"
+    },
+    {
+      "code": "161665007",
+      "original_code": "161665007",
+      "system": "SNOMED",
+      "display": "History of renal transplant (situation)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic Metabolic Panel - Blood"
+    },
+    {
+      "code": "58410-2",
+      "original_code": "58410-2",
+      "system": "SNOMED",
+      "display": "CBC panel - Blood by Automated count"
+    },
+    {
+      "code": "711446003",
+      "original_code": "711446003",
+      "system": "SNOMED",
+      "display": "Transplantation of kidney regime (regime/therapy)"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 13349.9,
+  "currency": "USD",
+  "payer_name": "Medicaid",
+  "payer_id": "medicaid",
+  "plan_type": "HMO",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

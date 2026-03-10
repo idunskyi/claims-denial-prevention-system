@@ -1,0 +1,37 @@
+{
+  "claim_id": "f1bc6edb-d06a-4457-a7ed-13b7890c402c",
+  "original_fhir_id": "55087eb9-d0fe-bcab-f3c3-73667e042fea",
+  "timestamp": "2026-01-27T16:49:19.343432",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "Fitchburg Outpatient Clinic",
+  "provider_npi": "1234567890",
+  "facility_name": "Fitchburg Outpatient Clinic",
+  "facility_type": "outpatient",
+  "service_date": "2026-01-01",
+  "submission_date": "2026-01-05",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "1808217",
+      "original_code": "1808217",
+      "system": "SNOMED",
+      "display": "100 ML Propofol 10 MG/ML Injection"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 0.13,
+  "currency": "USD",
+  "payer_name": "UnitedHealthcare",
+  "payer_id": "unitedhealthcare",
+  "plan_type": "HMO",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null,
+  "risk_factors": [
+    "potential_duplicate"
+  ],
+  "expected_denial_category": "duplicate"
+}

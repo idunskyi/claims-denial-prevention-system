@@ -1,0 +1,2807 @@
+[
+  {
+    "claim_id": "0f6f6589-da9b-4989-bbe7-a30fdc9ca18c",
+    "original_fhir_id": "55087eb9-d0fe-bcab-7aeb-4ff2c9273bf3",
+    "timestamp": "2026-01-27T16:49:19.341367",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BENJAMIN HEALTHCARE CENTER",
+    "provider_npi": "1234567890",
+    "facility_name": "BENJAMIN HEALTHCARE CENTER",
+    "facility_type": "outpatient",
+    "service_date": "2025-09-07",
+    "submission_date": "2025-09-14",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "705129",
+        "original_code": "705129",
+        "system": "SNOMED",
+        "display": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 65.73,
+    "currency": "USD",
+    "payer_name": "Blue Cross Blue Shield",
+    "payer_id": "blue_cross_blue_shield",
+    "plan_type": "EPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "84517a39-854e-4c8f-8090-ecab8a76cca7",
+    "original_fhir_id": "55087eb9-d0fe-bcab-ee75-52b8c3b2fcd9",
+    "timestamp": "2026-01-27T16:49:19.341348",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BENJAMIN HEALTHCARE CENTER",
+    "provider_npi": "1234567890",
+    "facility_name": "BENJAMIN HEALTHCARE CENTER",
+    "facility_type": "outpatient",
+    "service_date": "2025-09-30",
+    "submission_date": "2025-10-09",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "312961",
+        "original_code": "312961",
+        "system": "SNOMED",
+        "display": "Simvastatin 20 MG Oral Tablet"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 95.23,
+    "currency": "USD",
+    "payer_name": "Aetna",
+    "payer_id": "aetna",
+    "plan_type": "Medicaid",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "eb73f686-83ee-4f07-a4a3-95f9453542b9",
+    "original_fhir_id": "55087eb9-d0fe-bcab-0974-ac6661fc88ac",
+    "timestamp": "2026-01-27T16:49:19.351478",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "FIRST CHOICE HEALTHCARE, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "FIRST CHOICE HEALTHCARE, INC.",
+    "facility_type": "inpatient",
+    "service_date": "2025-12-17",
+    "submission_date": "2025-12-27",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "305336008",
+        "original_code": "305336008",
+        "system": "SNOMED",
+        "display": "Admission to hospice (procedure)"
+      },
+      {
+        "code": "310417005",
+        "original_code": "310417005",
+        "system": "SNOMED",
+        "display": "Certification procedure (procedure)"
+      },
+      {
+        "code": "185087000",
+        "original_code": "185087000",
+        "system": "SNOMED",
+        "display": "Notifications (procedure)"
+      },
+      {
+        "code": "315639002",
+        "original_code": "315639002",
+        "system": "SNOMED",
+        "display": "Initial patient assessment (procedure)"
+      },
+      {
+        "code": "370789001",
+        "original_code": "370789001",
+        "system": "SNOMED",
+        "display": "Development of individualized plan of care (procedure)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "385763009",
+        "original_code": "385763009",
+        "system": "SNOMED",
+        "display": "Hospice care (regime/therapy)"
+      },
+      {
+        "code": "58000006",
+        "original_code": "58000006",
+        "system": "SNOMED",
+        "display": "Patient discharge (procedure)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 13079.53,
+    "currency": "USD",
+    "payer_name": "UnitedHealthcare",
+    "payer_id": "unitedhealthcare",
+    "plan_type": "Medicare",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "af6cb582-1f16-4fb2-b476-d76c44fc014c",
+    "original_fhir_id": "55087eb9-d0fe-bcab-dbf4-0af88dc69f6f",
+    "timestamp": "2026-01-27T16:49:19.343414",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "Fitchburg Outpatient Clinic",
+    "provider_npi": "1234567890",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "outpatient",
+    "service_date": "2026-01-25",
+    "submission_date": "2026-02-07",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "1740467",
+        "original_code": "1740467",
+        "system": "SNOMED",
+        "display": "2 ML Ondansetron 2 MG/ML Injection"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 0.13,
+    "currency": "USD",
+    "payer_name": "Cigna",
+    "payer_id": "cigna",
+    "plan_type": "PPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "9af27077-cd95-4b69-8bd2-4479beb4fe9e",
+    "original_fhir_id": "55087eb9-d0fe-bcab-1cea-ea88ae0021b7",
+    "timestamp": "2026-01-27T16:49:19.337914",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BENJAMIN HEALTHCARE CENTER",
+    "provider_npi": "1234567890",
+    "facility_name": "BENJAMIN HEALTHCARE CENTER",
+    "facility_type": "inpatient",
+    "service_date": "2025-09-23",
+    "submission_date": "2025-09-24",
+    "diagnosis_codes": [
+      {
+        "code": "314529007",
+        "system": "SNOMED",
+        "display": "Medication review due (situation)"
+      },
+      {
+        "code": "160904001",
+        "system": "SNOMED",
+        "display": "Part-time employment (finding)"
+      },
+      {
+        "code": "73595000",
+        "system": "SNOMED",
+        "display": "Stress (finding)"
+      }
+    ],
+    "procedure_codes": [
+      {
+        "code": "50849002",
+        "original_code": "50849002",
+        "system": "SNOMED",
+        "display": "Emergency room admission (procedure)"
+      },
+      {
+        "code": "314529007",
+        "original_code": "314529007",
+        "system": "SNOMED",
+        "display": "Medication review due (situation)"
+      },
+      {
+        "code": "99214",
+        "original_code": "430193006",
+        "system": "CPT",
+        "display": "Medication reconciliation (procedure)"
+      },
+      {
+        "code": "24321-2",
+        "original_code": "24321-2",
+        "system": "SNOMED",
+        "display": "Basic metabolic 2000 panel - Serum or Plasma"
+      },
+      {
+        "code": "24357-6",
+        "original_code": "24357-6",
+        "system": "SNOMED",
+        "display": "Urinalysis macro (dipstick) panel - Urine"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic metabolic panel - Blood"
+      },
+      {
+        "code": "57698-3",
+        "original_code": "57698-3",
+        "system": "SNOMED",
+        "display": "Lipid panel with direct LDL - Serum or Plasma"
+      },
+      {
+        "code": "99406",
+        "original_code": "710824005",
+        "system": "CPT",
+        "display": "Assessment of health and social care needs (procedure)"
+      },
+      {
+        "code": "160904001",
+        "original_code": "160904001",
+        "system": "SNOMED",
+        "display": "Part-time employment (finding)"
+      },
+      {
+        "code": "73595000",
+        "original_code": "73595000",
+        "system": "SNOMED",
+        "display": "Stress (finding)"
+      },
+      {
+        "code": "762993000",
+        "original_code": "762993000",
+        "system": "SNOMED",
+        "display": "Assessment using Morse Fall Scale (procedure)"
+      },
+      {
+        "code": "59453-1",
+        "original_code": "59453-1",
+        "system": "SNOMED",
+        "display": "Morse Fall Scale panel"
+      },
+      {
+        "code": "866148006",
+        "original_code": "866148006",
+        "system": "SNOMED",
+        "display": "Screening for domestic abuse (procedure)"
+      },
+      {
+        "code": "76499-3",
+        "original_code": "76499-3",
+        "system": "SNOMED",
+        "display": "Humiliation, Afraid, Rape, and Kick questionnaire [HARK]"
+      },
+      {
+        "code": "103697008",
+        "original_code": "103697008",
+        "system": "SNOMED",
+        "display": "Patient referral for dental care (procedure)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 1133.49,
+    "currency": "USD",
+    "payer_name": "Medicare",
+    "payer_id": "medicare",
+    "plan_type": "POS",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "3ff047f8-7dda-4894-8232-72cfddff7bef",
+    "original_fhir_id": "55087eb9-d0fe-bcab-7214-2d5e263c7e51",
+    "timestamp": "2026-01-27T16:49:19.334465",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-10-21",
+    "submission_date": "2025-10-26",
+    "diagnosis_codes": [
+      {
+        "code": "161744009",
+        "system": "SNOMED",
+        "display": "Past pregnancy history of miscarriage (situation)"
+      }
+    ],
+    "procedure_codes": [
+      {
+        "code": "424619006",
+        "original_code": "424619006",
+        "system": "SNOMED",
+        "display": "Prenatal visit (regime/therapy)"
+      },
+      {
+        "code": "161744009",
+        "original_code": "161744009",
+        "system": "SNOMED",
+        "display": "Past pregnancy history of miscarriage (situation)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 2113.65,
+    "currency": "USD",
+    "payer_name": "Medicaid",
+    "payer_id": "medicaid",
+    "plan_type": "PPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "7ebc6e5a-950e-42a4-81b8-0e4aee29514e",
+    "original_fhir_id": "55087eb9-d0fe-bcab-652a-27c22d62f866",
+    "timestamp": "2026-01-27T16:49:19.343386",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "Fitchburg Outpatient Clinic",
+    "provider_npi": "1234567890",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "outpatient",
+    "service_date": "2025-09-18",
+    "submission_date": "2025-09-20",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "1659263",
+        "original_code": "1659263",
+        "system": "SNOMED",
+        "display": "1 ML heparin sodium, porcine 5000 UNT/ML Injection"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 0.6,
+    "currency": "USD",
+    "payer_name": "Humana",
+    "payer_id": "humana",
+    "plan_type": "PPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "7d201fa3-7308-4aed-8c2a-a77fe27cb2d5",
+    "original_fhir_id": "55087eb9-d0fe-bcab-03c4-3b30922d7e3e",
+    "timestamp": "2026-01-27T16:49:19.354121",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2026-01-15",
+    "submission_date": "2026-01-23",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "439740005",
+        "original_code": "439740005",
+        "system": "SNOMED",
+        "display": "Postoperative follow-up visit (procedure)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "24356-8",
+        "original_code": "24356-8",
+        "system": "SNOMED",
+        "display": "Urinalysis complete panel - Urine"
+      },
+      {
+        "code": "473231009",
+        "original_code": "473231009",
+        "system": "SNOMED",
+        "display": "Renal disorder medication review (procedure)"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 1229.12,
+    "currency": "USD",
+    "payer_name": "Blue Cross Blue Shield",
+    "payer_id": "blue_cross_blue_shield",
+    "plan_type": "PPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "a75787e8-b216-485d-8b26-8d43681a6d5d",
+    "original_fhir_id": "55087eb9-d0fe-bcab-13b2-6bc111b5fd9a",
+    "timestamp": "2026-01-27T16:49:19.342847",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2026-01-09",
+    "submission_date": "2026-01-18",
+    "diagnosis_codes": [
+      {
+        "code": "314529007",
+        "system": "SNOMED",
+        "display": "Medication review due (situation)"
+      },
+      {
+        "code": "741062008",
+        "system": "SNOMED",
+        "display": "Not in labor force (finding)"
+      }
+    ],
+    "procedure_codes": [
+      {
+        "code": "99213",
+        "original_code": "185349003",
+        "system": "CPT",
+        "display": "Encounter for check up (procedure)"
+      },
+      {
+        "code": "314529007",
+        "original_code": "314529007",
+        "system": "SNOMED",
+        "display": "Medication review due (situation)"
+      },
+      {
+        "code": "99214",
+        "original_code": "430193006",
+        "system": "CPT",
+        "display": "Medication reconciliation (procedure)"
+      },
+      {
+        "code": "24321-2",
+        "original_code": "24321-2",
+        "system": "SNOMED",
+        "display": "Basic metabolic 2000 panel - Serum or Plasma"
+      },
+      {
+        "code": "24357-6",
+        "original_code": "24357-6",
+        "system": "SNOMED",
+        "display": "Urinalysis macro (dipstick) panel - Urine"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic metabolic panel - Blood"
+      },
+      {
+        "code": "57698-3",
+        "original_code": "57698-3",
+        "system": "SNOMED",
+        "display": "Lipid panel with direct LDL - Serum or Plasma"
+      },
+      {
+        "code": "99406",
+        "original_code": "710824005",
+        "system": "CPT",
+        "display": "Assessment of health and social care needs (procedure)"
+      },
+      {
+        "code": "741062008",
+        "original_code": "741062008",
+        "system": "SNOMED",
+        "display": "Not in labor force (finding)"
+      },
+      {
+        "code": "710841007",
+        "original_code": "710841007",
+        "system": "SNOMED",
+        "display": "Assessment of anxiety (procedure)"
+      },
+      {
+        "code": "69737-5",
+        "original_code": "69737-5",
+        "system": "SNOMED",
+        "display": "Generalized anxiety disorder 7 item (GAD-7)"
+      },
+      {
+        "code": "762993000",
+        "original_code": "762993000",
+        "system": "SNOMED",
+        "display": "Assessment using Morse Fall Scale (procedure)"
+      },
+      {
+        "code": "59453-1",
+        "original_code": "59453-1",
+        "system": "SNOMED",
+        "display": "Morse Fall Scale panel"
+      },
+      {
+        "code": "171207006",
+        "original_code": "171207006",
+        "system": "SNOMED",
+        "display": "Depression screening (procedure)"
+      },
+      {
+        "code": "171207006",
+        "original_code": "171207006",
+        "system": "SNOMED",
+        "display": "Depression screening (procedure)"
+      },
+      {
+        "code": "55757-9",
+        "original_code": "55757-9",
+        "system": "SNOMED",
+        "display": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+      },
+      {
+        "code": "103697008",
+        "original_code": "103697008",
+        "system": "SNOMED",
+        "display": "Patient referral for dental care (procedure)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 1030.97,
+    "currency": "USD",
+    "payer_name": "Aetna",
+    "payer_id": "aetna",
+    "plan_type": "HMO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "64055380-9539-4141-86ba-ceae1f4a080f",
+    "original_fhir_id": "55087eb9-d0fe-bcab-f3c3-73667e042fea",
+    "timestamp": "2026-01-27T16:49:19.343432",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "Fitchburg Outpatient Clinic",
+    "provider_npi": "1234567890",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "outpatient",
+    "service_date": "2026-01-01",
+    "submission_date": "2026-01-05",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "1808217",
+        "original_code": "1808217",
+        "system": "SNOMED",
+        "display": "100 ML Propofol 10 MG/ML Injection"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 0.13,
+    "currency": "USD",
+    "payer_name": "UnitedHealthcare",
+    "payer_id": "unitedhealthcare",
+    "plan_type": "HMO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "983ce04b-0004-4076-91c6-a27311d97c0f",
+    "original_fhir_id": "55087eb9-d0fe-bcab-8ec5-8ea97abce622",
+    "timestamp": "2026-01-27T16:49:19.343404",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "Fitchburg Outpatient Clinic",
+    "provider_npi": "1234567890",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "outpatient",
+    "service_date": "2026-01-06",
+    "submission_date": "2026-01-19",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "311034",
+        "original_code": "311034",
+        "system": "SNOMED",
+        "display": "insulin, regular, human 100 UNT/ML Injectable Solution"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 129.94,
+    "currency": "USD",
+    "payer_name": "Cigna",
+    "payer_id": "cigna",
+    "plan_type": "HMO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "484fc691-ebf6-4c4a-bd20-c5d966b42663",
+    "original_fhir_id": "55087eb9-d0fe-bcab-c4d9-4244acea3d0d",
+    "timestamp": "2026-01-27T16:49:19.354348",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-10-30",
+    "submission_date": "2025-11-05",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "313521",
+        "original_code": "313521",
+        "system": "SNOMED",
+        "display": "tropicamide 5 MG/ML Ophthalmic Solution"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 129.94,
+    "currency": "USD",
+    "payer_name": "Medicare",
+    "payer_id": "medicare",
+    "plan_type": "EPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "2877cd6f-049b-4010-9013-d056ede80e07",
+    "original_fhir_id": "55087eb9-d0fe-bcab-dcf9-c33996d9b132",
+    "timestamp": "2026-01-27T16:49:19.343512",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "Fitchburg Outpatient Clinic",
+    "provider_npi": "1234567890",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "inpatient",
+    "service_date": "2025-12-03",
+    "submission_date": "2025-12-06",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "305342007",
+        "original_code": "305342007",
+        "system": "SNOMED",
+        "display": "Admission to ward (procedure)"
+      },
+      {
+        "code": "243063003",
+        "original_code": "243063003",
+        "system": "SNOMED",
+        "display": "Postoperative procedure education (procedure)"
+      },
+      {
+        "code": "302761001",
+        "original_code": "302761001",
+        "system": "SNOMED",
+        "display": "Walking exercise test (procedure)"
+      },
+      {
+        "code": "252482003",
+        "original_code": "252482003",
+        "system": "SNOMED",
+        "display": "Stair-climbing test (procedure)"
+      },
+      {
+        "code": "308283009",
+        "original_code": "308283009",
+        "system": "SNOMED",
+        "display": "Discharge from hospital (procedure)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 1871.78,
+    "currency": "USD",
+    "payer_name": "Medicaid",
+    "payer_id": "medicaid",
+    "plan_type": "PPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "19b8c510-c2dc-483e-ac2e-72ba831b6d43",
+    "original_fhir_id": "55087eb9-d0fe-bcab-9d1e-7db239722741",
+    "timestamp": "2026-01-27T16:49:19.343395",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "Fitchburg Outpatient Clinic",
+    "provider_npi": "1234567890",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "outpatient",
+    "service_date": "2025-11-26",
+    "submission_date": "2025-12-07",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "1796676",
+        "original_code": "1796676",
+        "system": "SNOMED",
+        "display": "25 ML protamine sulfate (USP) 10 MG/ML Injection"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 129.94,
+    "currency": "USD",
+    "payer_name": "Humana",
+    "payer_id": "humana",
+    "plan_type": "Medicaid",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "9a37743d-b009-4d72-af4c-edde4c6c8eec",
+    "original_fhir_id": "55087eb9-d0fe-bcab-7fda-6edb2cd168be",
+    "timestamp": "2026-01-27T16:49:19.343441",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "Fitchburg Outpatient Clinic",
+    "provider_npi": "1234567890",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "outpatient",
+    "service_date": "2025-09-05",
+    "submission_date": "2025-09-15",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "1234995",
+        "original_code": "1234995",
+        "system": "SNOMED",
+        "display": "Rocuronium bromide 10 MG/ML Injectable Solution"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 0.5,
+    "currency": "USD",
+    "payer_name": "Blue Cross Blue Shield",
+    "payer_id": "blue_cross_blue_shield",
+    "plan_type": "EPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "74031148-7794-45c4-8f63-26ca9ff1a3f6",
+    "original_fhir_id": "55087eb9-d0fe-bcab-2c8c-069da13dc557",
+    "timestamp": "2026-01-27T16:49:19.334572",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC",
+    "provider_npi": "1234567890",
+    "facility_name": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC",
+    "facility_type": "outpatient",
+    "service_date": "2025-08-24",
+    "submission_date": "2025-08-31",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "860975",
+        "original_code": "860975",
+        "system": "SNOMED",
+        "display": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 4.63,
+    "currency": "USD",
+    "payer_name": "Aetna",
+    "payer_id": "aetna",
+    "plan_type": "Medicare",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "f148f9e2-e5b9-417c-8151-cd7c6b029586",
+    "original_fhir_id": "55087eb9-d0fe-bcab-db30-17e8127f1502",
+    "timestamp": "2026-01-27T16:49:19.341542",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "DEDHAM MEDICAL ASSOCIATES URGENT CARE CENTER LLC",
+    "provider_npi": "1234567890",
+    "facility_name": "DEDHAM MEDICAL ASSOCIATES URGENT CARE CENTER LLC",
+    "facility_type": "outpatient",
+    "service_date": "2025-08-06",
+    "submission_date": "2025-08-18",
+    "diagnosis_codes": [
+      {
+        "code": "314529007",
+        "system": "SNOMED",
+        "display": "Medication review due (situation)"
+      }
+    ],
+    "procedure_codes": [
+      {
+        "code": "702927004",
+        "original_code": "702927004",
+        "system": "SNOMED",
+        "display": "Urgent care clinic (environment)"
+      },
+      {
+        "code": "314529007",
+        "original_code": "314529007",
+        "system": "SNOMED",
+        "display": "Medication review due (situation)"
+      },
+      {
+        "code": "24321-2",
+        "original_code": "24321-2",
+        "system": "SNOMED",
+        "display": "Basic metabolic 2000 panel - Serum or Plasma"
+      },
+      {
+        "code": "24357-6",
+        "original_code": "24357-6",
+        "system": "SNOMED",
+        "display": "Urinalysis macro (dipstick) panel - Urine"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 291.74,
+    "currency": "USD",
+    "payer_name": "UnitedHealthcare",
+    "payer_id": "unitedhealthcare",
+    "plan_type": "POS",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "c575ae63-c6e5-4e87-8c2a-26db56670d81",
+    "original_fhir_id": "55087eb9-d0fe-bcab-5e6b-5f0799ed9e3f",
+    "timestamp": "2026-01-27T16:49:19.334532",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-08-10",
+    "submission_date": "2025-08-23",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "856987",
+        "original_code": "856987",
+        "system": "SNOMED",
+        "display": "Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 41.45,
+    "currency": "USD",
+    "payer_name": "Cigna",
+    "payer_id": "cigna",
+    "plan_type": "PPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "f55f9284-98e8-4920-95bb-719aa214db45",
+    "original_fhir_id": "55087eb9-d0fe-bcab-eda0-81c654fb5f19",
+    "timestamp": "2026-01-27T16:49:19.354182",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-10-24",
+    "submission_date": "2025-10-25",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "108515",
+        "original_code": "108515",
+        "system": "SNOMED",
+        "display": "1 ML tacrolimus 5 MG/ML Injection [Prograf]"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 129.94,
+    "currency": "USD",
+    "payer_name": "Medicare",
+    "payer_id": "medicare",
+    "plan_type": "POS",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "c530e343-566a-4cf6-a2b7-e1dd155a0cc8",
+    "original_fhir_id": "55087eb9-d0fe-bcab-8a3e-60f14cb8805d",
+    "timestamp": "2026-01-27T16:49:19.354033",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "inpatient",
+    "service_date": "2025-10-21",
+    "submission_date": "2025-10-26",
+    "diagnosis_codes": [
+      {
+        "code": "161665007",
+        "system": "SNOMED",
+        "display": "History of renal transplant (situation)"
+      }
+    ],
+    "procedure_codes": [
+      {
+        "code": "305432006",
+        "original_code": "305432006",
+        "system": "SNOMED",
+        "display": "Admission to surgical transplant department (procedure)"
+      },
+      {
+        "code": "24321-2",
+        "original_code": "24321-2",
+        "system": "SNOMED",
+        "display": "Basic Metabolic 2000 Panel - Serum or Plasma"
+      },
+      {
+        "code": "24357-6",
+        "original_code": "24357-6",
+        "system": "SNOMED",
+        "display": "Urinalysis macro (dipstick) panel - Urine"
+      },
+      {
+        "code": "428830000",
+        "original_code": "428830000",
+        "system": "SNOMED",
+        "display": "Pretransplant evaluation of kidney recipient (procedure)"
+      },
+      {
+        "code": "119219003",
+        "original_code": "119219003",
+        "system": "SNOMED",
+        "display": "Kidney part (body structure)"
+      },
+      {
+        "code": "70536003",
+        "original_code": "70536003",
+        "system": "SNOMED",
+        "display": "Transplant of kidney (procedure)"
+      },
+      {
+        "code": "161665007",
+        "original_code": "161665007",
+        "system": "SNOMED",
+        "display": "History of renal transplant (situation)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 13349.9,
+    "currency": "USD",
+    "payer_name": "Medicaid",
+    "payer_id": "medicaid",
+    "plan_type": "HMO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "610ff6df-bad8-443a-806e-491a642b792f",
+    "original_fhir_id": "55087eb9-d0fe-bcab-51e1-212e3d69a191",
+    "timestamp": "2026-01-27T16:49:19.343474",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "Fitchburg Outpatient Clinic",
+    "provider_npi": "1234567890",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "outpatient",
+    "service_date": "2025-09-22",
+    "submission_date": "2025-09-29",
+    "diagnosis_codes": [
+      {
+        "code": "399261000",
+        "system": "SNOMED",
+        "display": "History of coronary artery bypass grafting (situation)"
+      }
+    ],
+    "procedure_codes": [
+      {
+        "code": "32485007",
+        "original_code": "32485007",
+        "system": "SNOMED",
+        "display": "Hospital admission (procedure)"
+      },
+      {
+        "code": "24336-0",
+        "original_code": "24336-0",
+        "system": "SNOMED",
+        "display": "Gas panel - Arterial blood"
+      },
+      {
+        "code": "24339-4",
+        "original_code": "24339-4",
+        "system": "SNOMED",
+        "display": "Gas panel - Venous blood"
+      },
+      {
+        "code": "180178009",
+        "original_code": "180178009",
+        "system": "SNOMED",
+        "display": "Continuous subcutaneous infusion of insulin (procedure)"
+      },
+      {
+        "code": "392247006",
+        "original_code": "392247006",
+        "system": "SNOMED",
+        "display": "Insertion of catheter into artery (procedure)"
+      },
+      {
+        "code": "410770002",
+        "original_code": "410770002",
+        "system": "SNOMED",
+        "display": "Administration of anesthesia for procedure (procedure)"
+      },
+      {
+        "code": "52765003",
+        "original_code": "52765003",
+        "system": "SNOMED",
+        "display": "Intubation (procedure)"
+      },
+      {
+        "code": "65677008",
+        "original_code": "65677008",
+        "system": "SNOMED",
+        "display": "Pulmonary catheterization with Swan-Ganz catheter (procedure)"
+      },
+      {
+        "code": "223495004",
+        "original_code": "223495004",
+        "system": "SNOMED",
+        "display": "Preparation of patient for procedure (regime/therapy)"
+      },
+      {
+        "code": "42825003",
+        "original_code": "42825003",
+        "system": "SNOMED",
+        "display": "Cannulation (procedure)"
+      },
+      {
+        "code": "63697000",
+        "original_code": "63697000",
+        "system": "SNOMED",
+        "display": "Cardiopulmonary bypass operation (procedure)"
+      },
+      {
+        "code": "301882004",
+        "original_code": "301882004",
+        "system": "SNOMED",
+        "display": "Placement of aortic cross clamp (procedure)"
+      },
+      {
+        "code": "8290005",
+        "original_code": "8290005",
+        "system": "SNOMED",
+        "display": "Induced cardioplegia (procedure)"
+      },
+      {
+        "code": "359672006",
+        "original_code": "359672006",
+        "system": "SNOMED",
+        "display": "Median sternotomy (procedure)"
+      },
+      {
+        "code": "232717009",
+        "original_code": "232717009",
+        "system": "SNOMED",
+        "display": "Coronary artery bypass grafting (procedure)"
+      },
+      {
+        "code": "301884003",
+        "original_code": "301884003",
+        "system": "SNOMED",
+        "display": "Removal of aortic cross clamp (procedure)"
+      },
+      {
+        "code": "233553003",
+        "original_code": "233553003",
+        "system": "SNOMED",
+        "display": "Vascular cannula removal (procedure)"
+      },
+      {
+        "code": "399261000",
+        "original_code": "399261000",
+        "system": "SNOMED",
+        "display": "History of coronary artery bypass grafting (situation)"
+      },
+      {
+        "code": "23745001",
+        "original_code": "23745001",
+        "system": "SNOMED",
+        "display": "Documentation procedure (procedure)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 24205.78,
+    "currency": "USD",
+    "payer_name": "Humana",
+    "payer_id": "humana",
+    "plan_type": "Medicaid",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "fda51763-bdc1-429b-ab7d-ed9da8a4bef8",
+    "original_fhir_id": "55087eb9-d0fe-bcab-dc59-6f86b35739a3",
+    "timestamp": "2026-01-27T16:49:19.344564",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-11-09",
+    "submission_date": "2025-11-10",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "33879002",
+        "original_code": "33879002",
+        "system": "SNOMED",
+        "display": "Administration of vaccine to produce active immunity (procedure)"
+      },
+      {
+        "code": "208",
+        "original_code": "208",
+        "system": "SNOMED",
+        "display": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 278.58,
+    "currency": "USD",
+    "payer_name": "Blue Cross Blue Shield",
+    "payer_id": "blue_cross_blue_shield",
+    "plan_type": "Medicare",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "e07f06bc-8de7-4804-aa9b-0aa9142b6086",
+    "original_fhir_id": "55087eb9-d0fe-bcab-631e-97db5dc14803",
+    "timestamp": "2026-01-27T16:49:19.343033",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-08-15",
+    "submission_date": "2025-08-16",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "562251",
+        "original_code": "562251",
+        "system": "SNOMED",
+        "display": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 739.54,
+    "currency": "USD",
+    "payer_name": "Aetna",
+    "payer_id": "aetna",
+    "plan_type": "Medicaid",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "aba1ad9c-9fa5-49a9-b9df-f52ee0544b59",
+    "original_fhir_id": "55087eb9-d0fe-bcab-489f-6b7e4befbea7",
+    "timestamp": "2026-01-27T16:49:19.343377",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "Fitchburg Outpatient Clinic",
+    "provider_npi": "1234567890",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "outpatient",
+    "service_date": "2026-01-26",
+    "submission_date": "2026-01-30",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "1665060",
+        "original_code": "1665060",
+        "system": "SNOMED",
+        "display": "cefazolin 2000 MG Injection"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 129.94,
+    "currency": "USD",
+    "payer_name": "UnitedHealthcare",
+    "payer_id": "unitedhealthcare",
+    "plan_type": "POS",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "7ce42a4a-c1b7-4970-9a02-012ae00d12c9",
+    "original_fhir_id": "55087eb9-d0fe-bcab-91df-ecb1766c0c9f",
+    "timestamp": "2026-01-27T16:49:19.343423",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "Fitchburg Outpatient Clinic",
+    "provider_npi": "1234567890",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "outpatient",
+    "service_date": "2025-12-16",
+    "submission_date": "2025-12-28",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "309845",
+        "original_code": "309845",
+        "system": "SNOMED",
+        "display": "Diazepam 5 MG/ML Injectable Solution"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 0.04,
+    "currency": "USD",
+    "payer_name": "Cigna",
+    "payer_id": "cigna",
+    "plan_type": "EPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "d0b5d66b-8b9e-49c3-8164-f6e17e29d2f1",
+    "original_fhir_id": "55087eb9-d0fe-bcab-86be-c0b9e5c626e4",
+    "timestamp": "2026-01-27T16:49:19.345795",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-09-06",
+    "submission_date": "2025-09-12",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "1535362",
+        "original_code": "1535362",
+        "system": "SNOMED",
+        "display": "sodium fluoride 0.0272 MG/MG Oral Gel"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 129.94,
+    "currency": "USD",
+    "payer_name": "Medicare",
+    "payer_id": "medicare",
+    "plan_type": "EPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "2bea13f6-4b53-4f3e-842f-e97c7b7a9a54",
+    "original_fhir_id": "55087eb9-d0fe-bcab-84cf-0e908259c057",
+    "timestamp": "2026-01-27T16:49:19.347436",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-12-11",
+    "submission_date": "2025-12-23",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "185347001",
+        "original_code": "185347001",
+        "system": "SNOMED",
+        "display": "Encounter for problem (procedure)"
+      },
+      {
+        "code": "24323-8",
+        "original_code": "24323-8",
+        "system": "SNOMED",
+        "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+      },
+      {
+        "code": "24357-6",
+        "original_code": "24357-6",
+        "system": "SNOMED",
+        "display": "Urinalysis macro (dipstick) panel - Urine"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 234.71,
+    "currency": "USD",
+    "payer_name": "Medicaid",
+    "payer_id": "medicaid",
+    "plan_type": "Medicare",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "8ada607c-8d5b-4295-9837-c2d06a05f5ff",
+    "original_fhir_id": "55087eb9-d0fe-bcab-cfb4-b2f558e3ce78",
+    "timestamp": "2026-01-27T16:49:19.341339",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BENJAMIN HEALTHCARE CENTER",
+    "provider_npi": "1234567890",
+    "facility_name": "BENJAMIN HEALTHCARE CENTER",
+    "facility_type": "outpatient",
+    "service_date": "2025-08-09",
+    "submission_date": "2025-08-19",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "309362",
+        "original_code": "309362",
+        "system": "SNOMED",
+        "display": "Clopidogrel 75 MG Oral Tablet"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 62.83,
+    "currency": "USD",
+    "payer_name": "Humana",
+    "payer_id": "humana",
+    "plan_type": "POS",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "63b556b6-3e53-4126-8cab-4f4ff76b893a",
+    "original_fhir_id": "55087eb9-d0fe-bcab-7d2e-20ee79f64969",
+    "timestamp": "2026-01-27T16:49:19.336184",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "DEDHAM MEDICAL ASSOCIATES URGENT CARE CENTER LLC",
+    "provider_npi": "1234567890",
+    "facility_name": "DEDHAM MEDICAL ASSOCIATES URGENT CARE CENTER LLC",
+    "facility_type": "outpatient",
+    "service_date": "2025-10-18",
+    "submission_date": "2025-10-20",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "314076",
+        "original_code": "314076",
+        "system": "SNOMED",
+        "display": "lisinopril 10 MG Oral Tablet"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 0.91,
+    "currency": "USD",
+    "payer_name": "Blue Cross Blue Shield",
+    "payer_id": "blue_cross_blue_shield",
+    "plan_type": "Medicare",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "f93aeb2a-9fb7-41e8-a14f-0b11989cabd0",
+    "original_fhir_id": "55087eb9-d0fe-bcab-2a4e-48bdd448b7e5",
+    "timestamp": "2026-01-27T16:49:19.335228",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-12-04",
+    "submission_date": "2025-12-18",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "36228007",
+        "original_code": "36228007",
+        "system": "SNOMED",
+        "display": "Ophthalmic examination and evaluation (procedure)"
+      },
+      {
+        "code": "16830007",
+        "original_code": "16830007",
+        "system": "SNOMED",
+        "display": "Visual acuity testing (procedure)"
+      },
+      {
+        "code": "252832004",
+        "original_code": "252832004",
+        "system": "SNOMED",
+        "display": "Intraocular pressure test (procedure)"
+      },
+      {
+        "code": "55468007",
+        "original_code": "55468007",
+        "system": "SNOMED",
+        "display": "Ocular slit lamp examination (procedure)"
+      },
+      {
+        "code": "389153003",
+        "original_code": "389153003",
+        "system": "SNOMED",
+        "display": "Indirect gonioscopy (procedure)"
+      },
+      {
+        "code": "314971001",
+        "original_code": "314971001",
+        "system": "SNOMED",
+        "display": "Camera fundoscopy (procedure)"
+      },
+      {
+        "code": "722161008",
+        "original_code": "722161008",
+        "system": "SNOMED",
+        "display": "Diabetic retinal eye exam (procedure)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 2730.98,
+    "currency": "USD",
+    "payer_name": "Aetna",
+    "payer_id": "aetna",
+    "plan_type": "HMO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "ac73bd58-0bbd-4590-a5f4-2ba0e233fefe",
+    "original_fhir_id": "55087eb9-d0fe-bcab-c7e5-18e4c5cf687b",
+    "timestamp": "2026-01-27T16:49:19.350088",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2026-01-20",
+    "submission_date": "2026-01-27",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "205923",
+        "original_code": "205923",
+        "system": "SNOMED",
+        "display": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 29.21,
+    "currency": "USD",
+    "payer_name": "UnitedHealthcare",
+    "payer_id": "unitedhealthcare",
+    "plan_type": "Medicare",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "e514bf43-3b16-4afe-aaab-21e2117b20e3",
+    "original_fhir_id": "55087eb9-d0fe-bcab-1843-1ef4ccd660c4",
+    "timestamp": "2026-01-27T16:49:19.347330",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-08-31",
+    "submission_date": "2025-09-07",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "205923",
+        "original_code": "205923",
+        "system": "SNOMED",
+        "display": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 30.67,
+    "currency": "USD",
+    "payer_name": "Cigna",
+    "payer_id": "cigna",
+    "plan_type": "Medicare",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "9d66c3b1-738f-4857-bb78-6f0cb998c385",
+    "original_fhir_id": "55087eb9-d0fe-bcab-7b87-f42673b22ed7",
+    "timestamp": "2026-01-27T16:49:19.336016",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-11-15",
+    "submission_date": "2025-11-16",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "314076",
+        "original_code": "314076",
+        "system": "SNOMED",
+        "display": "lisinopril 10 MG Oral Tablet"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 0.91,
+    "currency": "USD",
+    "payer_name": "Medicare",
+    "payer_id": "medicare",
+    "plan_type": "POS",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "9a8c7c6a-468b-4552-83df-f652b017518c",
+    "original_fhir_id": "55087eb9-d0fe-bcab-2feb-44ec28726d6b",
+    "timestamp": "2026-01-27T16:49:19.353393",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-12-05",
+    "submission_date": "2025-12-16",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "205923",
+        "original_code": "205923",
+        "system": "SNOMED",
+        "display": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 29.21,
+    "currency": "USD",
+    "payer_name": "Medicaid",
+    "payer_id": "medicaid",
+    "plan_type": "HMO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "ff0e2948-1c56-4101-8a27-987af8e66de4",
+    "original_fhir_id": "55087eb9-d0fe-bcab-e4d6-4cbfdf58e859",
+    "timestamp": "2026-01-27T16:49:19.335752",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-08-01",
+    "submission_date": "2025-08-04",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "314076",
+        "original_code": "314076",
+        "system": "SNOMED",
+        "display": "lisinopril 10 MG Oral Tablet"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 0.91,
+    "currency": "USD",
+    "payer_name": "Humana",
+    "payer_id": "humana",
+    "plan_type": "Medicaid",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "ec92e729-4589-403b-8b0a-efaf94e7cb01",
+    "original_fhir_id": "55087eb9-d0fe-bcab-f859-a970ff5f181b",
+    "timestamp": "2026-01-27T16:49:19.350556",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-09-16",
+    "submission_date": "2025-09-28",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "205923",
+        "original_code": "205923",
+        "system": "SNOMED",
+        "display": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 29.21,
+    "currency": "USD",
+    "payer_name": "Blue Cross Blue Shield",
+    "payer_id": "blue_cross_blue_shield",
+    "plan_type": "POS",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "cb6611a7-22a3-41c6-88ce-4bdbccf62637",
+    "original_fhir_id": "55087eb9-d0fe-bcab-8f44-f5710c9221fd",
+    "timestamp": "2026-01-27T16:49:19.342880",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2026-01-26",
+    "submission_date": "2026-02-07",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "99213",
+        "original_code": "185349003",
+        "system": "CPT",
+        "display": "Encounter for check up (procedure)"
+      },
+      {
+        "code": "34043003",
+        "original_code": "34043003",
+        "system": "SNOMED",
+        "display": "Dental consultation and report (procedure)"
+      },
+      {
+        "code": "225362009",
+        "original_code": "225362009",
+        "system": "SNOMED",
+        "display": "Dental care (regime/therapy)"
+      },
+      {
+        "code": "277183007",
+        "original_code": "277183007",
+        "system": "SNOMED",
+        "display": "Dental equipment (physical object)"
+      },
+      {
+        "code": "1230220004",
+        "original_code": "1230220004",
+        "system": "SNOMED",
+        "display": "Conventional release periodontal gel (dose form)"
+      },
+      {
+        "code": "469020004",
+        "original_code": "469020004",
+        "system": "SNOMED",
+        "display": "Dental floss (physical object)"
+      },
+      {
+        "code": "1260009003",
+        "original_code": "1260009003",
+        "system": "SNOMED",
+        "display": "Removal of supragingival plaque and calculus from all teeth using dental instrument (procedure)"
+      },
+      {
+        "code": "1260010008",
+        "original_code": "1260010008",
+        "system": "SNOMED",
+        "display": "Removal of subgingival plaque and calculus from all teeth using dental instrument (procedure)"
+      },
+      {
+        "code": "706298007",
+        "original_code": "706298007",
+        "system": "SNOMED",
+        "display": "Dental x-ray system (physical object)"
+      },
+      {
+        "code": "241046008",
+        "original_code": "241046008",
+        "system": "SNOMED",
+        "display": "Dental plain X-ray bitewing (procedure)"
+      },
+      {
+        "code": "274788003",
+        "original_code": "274788003",
+        "system": "SNOMED",
+        "display": "Examination of gingivae (procedure)"
+      },
+      {
+        "code": "243085009",
+        "original_code": "243085009",
+        "system": "SNOMED",
+        "display": "Oral health education (procedure)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 3105.35,
+    "currency": "USD",
+    "payer_name": "Aetna",
+    "payer_id": "aetna",
+    "plan_type": "Medicare",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "fa800915-1c5a-42fc-8988-7468f6ee8fae",
+    "original_fhir_id": "55087eb9-d0fe-bcab-e7c3-f72ffa55f6a1",
+    "timestamp": "2026-01-27T16:49:19.346534",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2026-01-08",
+    "submission_date": "2026-01-21",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "185347001",
+        "original_code": "185347001",
+        "system": "SNOMED",
+        "display": "Encounter for problem (procedure)"
+      },
+      {
+        "code": "265764009",
+        "original_code": "265764009",
+        "system": "SNOMED",
+        "display": "Renal dialysis (procedure)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 1056.48,
+    "currency": "USD",
+    "payer_name": "UnitedHealthcare",
+    "payer_id": "unitedhealthcare",
+    "plan_type": "Medicaid",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "ffc55cfe-8f19-4e90-a2aa-4db88f86ae89",
+    "original_fhir_id": "55087eb9-d0fe-bcab-7085-4fb17601024d",
+    "timestamp": "2026-01-27T16:49:19.347255",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-10-25",
+    "submission_date": "2025-10-29",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "205923",
+        "original_code": "205923",
+        "system": "SNOMED",
+        "display": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 29.21,
+    "currency": "USD",
+    "payer_name": "Cigna",
+    "payer_id": "cigna",
+    "plan_type": "EPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "40224803-1a62-45d1-8cec-1cdb21b1a19a",
+    "original_fhir_id": "55087eb9-d0fe-bcab-9dd9-b8c02cb75a60",
+    "timestamp": "2026-01-27T16:49:19.343680",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-11-08",
+    "submission_date": "2025-11-19",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "1535362",
+        "original_code": "1535362",
+        "system": "SNOMED",
+        "display": "sodium fluoride 0.0272 MG/MG Oral Gel"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 129.94,
+    "currency": "USD",
+    "payer_name": "Medicare",
+    "payer_id": "medicare",
+    "plan_type": "Medicaid",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "5c4c3df8-ff53-4f95-afd3-73cb404586bb",
+    "original_fhir_id": "55087eb9-d0fe-bcab-3947-525aa0558193",
+    "timestamp": "2026-01-27T16:49:19.342623",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-09-09",
+    "submission_date": "2025-09-16",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "904419",
+        "original_code": "904419",
+        "system": "SNOMED",
+        "display": "Alendronic acid 10 MG Oral Tablet"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 1.4,
+    "currency": "USD",
+    "payer_name": "Medicaid",
+    "payer_id": "medicaid",
+    "plan_type": "Medicare",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "e2fce518-0fe2-4aa5-bfd1-c5304c613311",
+    "original_fhir_id": "55087eb9-d0fe-bcab-ad9a-ea95ea011516",
+    "timestamp": "2026-01-27T16:49:19.340248",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BENJAMIN HEALTHCARE CENTER",
+    "provider_npi": "1234567890",
+    "facility_name": "BENJAMIN HEALTHCARE CENTER",
+    "facility_type": "outpatient",
+    "service_date": "2025-12-11",
+    "submission_date": "2025-12-23",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "206905",
+        "original_code": "206905",
+        "system": "SNOMED",
+        "display": "Ibuprofen 400 MG Oral Tablet [Ibu]"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 129.94,
+    "currency": "USD",
+    "payer_name": "Humana",
+    "payer_id": "humana",
+    "plan_type": "HMO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "06a44a30-cd06-4992-a1c1-3f6da242fa98",
+    "original_fhir_id": "55087eb9-d0fe-bcab-7b9f-16c00bb61007",
+    "timestamp": "2026-01-27T16:49:19.353295",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-11-26",
+    "submission_date": "2025-11-27",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "185347001",
+        "original_code": "185347001",
+        "system": "SNOMED",
+        "display": "Encounter for problem (procedure)"
+      },
+      {
+        "code": "265764009",
+        "original_code": "265764009",
+        "system": "SNOMED",
+        "display": "Renal dialysis (procedure)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 535.87,
+    "currency": "USD",
+    "payer_name": "Blue Cross Blue Shield",
+    "payer_id": "blue_cross_blue_shield",
+    "plan_type": "Medicaid",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "8f31c759-7876-4c62-9c71-8dc03462b1fc",
+    "original_fhir_id": "55087eb9-d0fe-bcab-d88a-6756183d4dd4",
+    "timestamp": "2026-01-27T16:49:19.343889",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2026-01-18",
+    "submission_date": "2026-01-19",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "185347001",
+        "original_code": "185347001",
+        "system": "SNOMED",
+        "display": "Encounter for problem (procedure)"
+      },
+      {
+        "code": "265764009",
+        "original_code": "265764009",
+        "system": "SNOMED",
+        "display": "Renal dialysis (procedure)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 546.68,
+    "currency": "USD",
+    "payer_name": "Aetna",
+    "payer_id": "aetna",
+    "plan_type": "Medicaid",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "816cb754-9899-422f-b831-c958ddda14fe",
+    "original_fhir_id": "55087eb9-d0fe-bcab-a688-40041a7e84d4",
+    "timestamp": "2026-01-27T16:49:19.342423",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "DEDHAM MEDICAL ASSOCIATES URGENT CARE CENTER LLC",
+    "provider_npi": "1234567890",
+    "facility_name": "DEDHAM MEDICAL ASSOCIATES URGENT CARE CENTER LLC",
+    "facility_type": "outpatient",
+    "service_date": "2025-11-20",
+    "submission_date": "2025-11-24",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "860975",
+        "original_code": "860975",
+        "system": "SNOMED",
+        "display": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 15.08,
+    "currency": "USD",
+    "payer_name": "UnitedHealthcare",
+    "payer_id": "unitedhealthcare",
+    "plan_type": "Medicaid",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "40415872-5c25-4c0b-b15b-2cc8a2434915",
+    "original_fhir_id": "55087eb9-d0fe-bcab-1db2-b0e37571414a",
+    "timestamp": "2026-01-27T16:49:19.351830",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-12-10",
+    "submission_date": "2025-12-16",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "205923",
+        "original_code": "205923",
+        "system": "SNOMED",
+        "display": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 29.21,
+    "currency": "USD",
+    "payer_name": "Cigna",
+    "payer_id": "cigna",
+    "plan_type": "EPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "3dc114d8-41a0-4905-9868-be9fed5565f6",
+    "original_fhir_id": "55087eb9-d0fe-bcab-3a4a-b3833b13cae3",
+    "timestamp": "2026-01-27T16:49:19.338460",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BENJAMIN HEALTHCARE CENTER",
+    "provider_npi": "1234567890",
+    "facility_name": "BENJAMIN HEALTHCARE CENTER",
+    "facility_type": "outpatient",
+    "service_date": "2026-01-18",
+    "submission_date": "2026-01-27",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "860975",
+        "original_code": "860975",
+        "system": "SNOMED",
+        "display": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 2.06,
+    "currency": "USD",
+    "payer_name": "Medicare",
+    "payer_id": "medicare",
+    "plan_type": "Medicaid",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "bd20ec44-fed4-4497-a78c-3a24e1601903",
+    "original_fhir_id": "55087eb9-d0fe-bcab-a751-4c9455be9db5",
+    "timestamp": "2026-01-27T16:49:19.354289",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC",
+    "provider_npi": "1234567890",
+    "facility_name": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC",
+    "facility_type": "outpatient",
+    "service_date": "2025-09-10",
+    "submission_date": "2025-09-11",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "308136",
+        "original_code": "308136",
+        "system": "SNOMED",
+        "display": "amLODIPine 2.5 MG Oral Tablet"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 0.91,
+    "currency": "USD",
+    "payer_name": "Medicaid",
+    "payer_id": "medicaid",
+    "plan_type": "EPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "1a574887-73eb-4fd6-b6e9-7ba651db2b12",
+    "original_fhir_id": "55087eb9-d0fe-bcab-f784-b949a8614fcd",
+    "timestamp": "2026-01-27T16:49:19.346467",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-09-13",
+    "submission_date": "2025-09-24",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "185347001",
+        "original_code": "185347001",
+        "system": "SNOMED",
+        "display": "Encounter for problem (procedure)"
+      },
+      {
+        "code": "265764009",
+        "original_code": "265764009",
+        "system": "SNOMED",
+        "display": "Renal dialysis (procedure)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 1791.03,
+    "currency": "USD",
+    "payer_name": "Humana",
+    "payer_id": "humana",
+    "plan_type": "POS",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  },
+  {
+    "claim_id": "a5624bff-2ce7-4522-9ad7-1990a5c5addf",
+    "original_fhir_id": "55087eb9-d0fe-bcab-1954-f567509dc3c2",
+    "timestamp": "2026-01-27T16:49:19.343876",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-08-25",
+    "submission_date": "2025-09-08",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "205923",
+        "original_code": "205923",
+        "system": "SNOMED",
+        "display": "1 ML Epoetin Alfa 4000 UNT/ML Injection [Epogen]"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 29.9,
+    "currency": "USD",
+    "payer_name": "Blue Cross Blue Shield",
+    "payer_id": "blue_cross_blue_shield",
+    "plan_type": "Medicaid",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null
+  }
+]

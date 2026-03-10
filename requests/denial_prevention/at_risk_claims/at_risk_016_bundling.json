@@ -1,0 +1,44 @@
+{
+  "claim_id": "048e9455-be8a-4a43-a3f1-af99d4863709",
+  "original_fhir_id": "55087eb9-d0fe-bcab-2c8c-069da13dc557",
+  "timestamp": "2026-01-27T16:49:19.334572",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC",
+  "provider_npi": "1234567890",
+  "facility_name": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC",
+  "facility_type": "outpatient",
+  "service_date": "2025-08-24",
+  "submission_date": "2025-08-31",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "99213",
+      "original_code": "99213",
+      "system": "CPT",
+      "display": "Office visit, established patient"
+    },
+    {
+      "code": "36415",
+      "original_code": "36415",
+      "system": "CPT",
+      "display": "Venipuncture"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 4.63,
+  "currency": "USD",
+  "payer_name": "Aetna",
+  "payer_id": "aetna",
+  "plan_type": "Medicare",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null,
+  "risk_factors": [
+    "bundling_issue",
+    "missing_modifier"
+  ],
+  "expected_denial_category": "bundling"
+}

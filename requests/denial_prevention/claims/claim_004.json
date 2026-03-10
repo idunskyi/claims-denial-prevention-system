@@ -1,0 +1,39 @@
+{
+  "claim_id": "af6cb582-1f16-4fb2-b476-d76c44fc014c",
+  "original_fhir_id": "55087eb9-d0fe-bcab-dbf4-0af88dc69f6f",
+  "timestamp": "2026-01-27T16:49:19.343414",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "Fitchburg Outpatient Clinic",
+  "provider_npi": "1234567890",
+  "facility_name": "Fitchburg Outpatient Clinic",
+  "facility_type": "outpatient",
+  "service_date": "2026-01-25",
+  "submission_date": "2026-02-07",
+  "diagnosis_codes": [
+  {
+    "code": "G43.909",
+    "system": "ICD-10",
+    "display": "Migraine, unspecified, not intractable, without status migrainosus"
+  }
+  ],
+  "procedure_codes": [
+    {
+      "code": "1740467",
+      "original_code": "1740467",
+      "system": "SNOMED",
+      "display": "2 ML Ondansetron 2 MG/ML Injection"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 0.13,
+  "currency": "USD",
+  "payer_name": "Cigna",
+  "payer_id": "cigna",
+  "plan_type": "PPO",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": "Patient with advanced lung malignancy admitted for hospice evaluation, care plan certification, and palliative management."
+}

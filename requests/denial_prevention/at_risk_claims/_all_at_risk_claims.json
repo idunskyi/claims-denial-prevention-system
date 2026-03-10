@@ -1,0 +1,966 @@
+[
+  {
+    "claim_id": "941bdd06-c66d-4bc1-9191-a8aea7aa1c4c",
+    "original_fhir_id": "55087eb9-d0fe-bcab-7aeb-4ff2c9273bf3",
+    "timestamp": "2026-01-27T16:49:19.341367",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BENJAMIN HEALTHCARE CENTER",
+    "provider_npi": "1234567890",
+    "facility_name": "BENJAMIN HEALTHCARE CENTER",
+    "facility_type": "outpatient",
+    "service_date": "2025-09-07",
+    "submission_date": "2025-09-14",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "27447",
+        "original_code": "27447",
+        "system": "CPT",
+        "display": "Total knee replacement"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 38056.82,
+    "currency": "USD",
+    "payer_name": "Blue Cross Blue Shield",
+    "payer_id": "blue_cross_blue_shield",
+    "plan_type": "EPO",
+    "prior_auth_number": null,
+    "prior_auth_required": true,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "missing_prior_auth",
+      "high_cost_procedure"
+    ],
+    "expected_denial_category": "prior_authorization"
+  },
+  {
+    "claim_id": "a12aaa7f-f7e6-41df-a26b-1c6eeaffad87",
+    "original_fhir_id": "55087eb9-d0fe-bcab-ee75-52b8c3b2fcd9",
+    "timestamp": "2026-01-27T16:49:19.341348",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BENJAMIN HEALTHCARE CENTER",
+    "provider_npi": "1234567890",
+    "facility_name": "BENJAMIN HEALTHCARE CENTER",
+    "facility_type": "outpatient",
+    "service_date": "2025-09-30",
+    "submission_date": "2025-10-09",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "27447",
+        "original_code": "27447",
+        "system": "CPT",
+        "display": "Total knee replacement"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 37633.58,
+    "currency": "USD",
+    "payer_name": "Aetna",
+    "payer_id": "aetna",
+    "plan_type": "Medicaid",
+    "prior_auth_number": null,
+    "prior_auth_required": true,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "missing_prior_auth",
+      "high_cost_procedure"
+    ],
+    "expected_denial_category": "prior_authorization"
+  },
+  {
+    "claim_id": "f7316a55-e959-4c4c-bc12-e3e69e1aeeaa",
+    "original_fhir_id": "55087eb9-d0fe-bcab-0974-ac6661fc88ac",
+    "timestamp": "2026-01-27T16:49:19.351478",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "FIRST CHOICE HEALTHCARE, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "FIRST CHOICE HEALTHCARE, INC.",
+    "facility_type": "inpatient",
+    "service_date": "2025-12-17",
+    "submission_date": "2025-12-27",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "27447",
+        "original_code": "27447",
+        "system": "CPT",
+        "display": "Total knee replacement"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 47033.76,
+    "currency": "USD",
+    "payer_name": "UnitedHealthcare",
+    "payer_id": "unitedhealthcare",
+    "plan_type": "Medicare",
+    "prior_auth_number": null,
+    "prior_auth_required": true,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "missing_prior_auth",
+      "high_cost_procedure"
+    ],
+    "expected_denial_category": "prior_authorization"
+  },
+  {
+    "claim_id": "a4c0e7b1-eeda-46de-9a15-d4e8eb246e26",
+    "original_fhir_id": "55087eb9-d0fe-bcab-dbf4-0af88dc69f6f",
+    "timestamp": "2026-01-27T16:49:19.343414",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "Fitchburg Outpatient Clinic",
+    "provider_npi": "1234567890",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "outpatient",
+    "service_date": "2026-01-25",
+    "submission_date": "2026-02-07",
+    "diagnosis_codes": [
+      {
+        "code": "Z00.00",
+        "system": "ICD-10",
+        "display": "Encounter for general adult medical examination without abnormal findings"
+      }
+    ],
+    "procedure_codes": [
+      {
+        "code": "99215",
+        "original_code": "99215",
+        "system": "CPT",
+        "display": "Office visit, established patient, high complexity"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 250.0,
+    "currency": "USD",
+    "payer_name": "Cigna",
+    "payer_id": "cigna",
+    "plan_type": "PPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "diagnosis_procedure_mismatch",
+      "upcoding_risk"
+    ],
+    "expected_denial_category": "medical_necessity"
+  },
+  {
+    "claim_id": "66d30d01-e440-4fc8-a52a-28df983951f0",
+    "original_fhir_id": "55087eb9-d0fe-bcab-1cea-ea88ae0021b7",
+    "timestamp": "2026-01-27T16:49:19.337914",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BENJAMIN HEALTHCARE CENTER",
+    "provider_npi": "1234567890",
+    "facility_name": "BENJAMIN HEALTHCARE CENTER",
+    "facility_type": "inpatient",
+    "service_date": "2025-09-23",
+    "submission_date": "2025-09-24",
+    "diagnosis_codes": [
+      {
+        "code": "Z00.00",
+        "system": "ICD-10",
+        "display": "Encounter for general adult medical examination without abnormal findings"
+      }
+    ],
+    "procedure_codes": [
+      {
+        "code": "99215",
+        "original_code": "99215",
+        "system": "CPT",
+        "display": "Office visit, established patient, high complexity"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 250.0,
+    "currency": "USD",
+    "payer_name": "Medicare",
+    "payer_id": "medicare",
+    "plan_type": "POS",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "diagnosis_procedure_mismatch",
+      "upcoding_risk"
+    ],
+    "expected_denial_category": "medical_necessity"
+  },
+  {
+    "claim_id": "5c46152d-2fb3-4115-8ffb-b785d7940b74",
+    "original_fhir_id": "55087eb9-d0fe-bcab-7214-2d5e263c7e51",
+    "timestamp": "2026-01-27T16:49:19.334465",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-10-21",
+    "submission_date": "2025-10-26",
+    "diagnosis_codes": [
+      {
+        "code": "Z00.00",
+        "system": "ICD-10",
+        "display": "Encounter for general adult medical examination without abnormal findings"
+      }
+    ],
+    "procedure_codes": [
+      {
+        "code": "99215",
+        "original_code": "99215",
+        "system": "CPT",
+        "display": "Office visit, established patient, high complexity"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 250.0,
+    "currency": "USD",
+    "payer_name": "Medicaid",
+    "payer_id": "medicaid",
+    "plan_type": "PPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "diagnosis_procedure_mismatch",
+      "upcoding_risk"
+    ],
+    "expected_denial_category": "medical_necessity"
+  },
+  {
+    "claim_id": "3938fee4-e5aa-49ed-a7b2-826e222f1276",
+    "original_fhir_id": "55087eb9-d0fe-bcab-652a-27c22d62f866",
+    "timestamp": "2026-01-27T16:49:19.343386",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "Fitchburg Outpatient Clinic",
+    "provider_npi": "1234567890",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "outpatient",
+    "service_date": "2025-10-30",
+    "submission_date": "2026-01-27",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "1659263",
+        "original_code": "1659263",
+        "system": "SNOMED",
+        "display": "1 ML heparin sodium, porcine 5000 UNT/ML Injection"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 0.6,
+    "currency": "USD",
+    "payer_name": "Aetna",
+    "payer_id": "humana",
+    "plan_type": "PPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "timely_filing_risk"
+    ],
+    "expected_denial_category": "timely_filing"
+  },
+  {
+    "claim_id": "b19aae34-8f2a-49d5-a2cb-6d12db944627",
+    "original_fhir_id": "55087eb9-d0fe-bcab-03c4-3b30922d7e3e",
+    "timestamp": "2026-01-27T16:49:19.354121",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-10-26",
+    "submission_date": "2026-01-27",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "439740005",
+        "original_code": "439740005",
+        "system": "SNOMED",
+        "display": "Postoperative follow-up visit (procedure)"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic Metabolic Panel - Blood"
+      },
+      {
+        "code": "58410-2",
+        "original_code": "58410-2",
+        "system": "SNOMED",
+        "display": "CBC panel - Blood by Automated count"
+      },
+      {
+        "code": "24356-8",
+        "original_code": "24356-8",
+        "system": "SNOMED",
+        "display": "Urinalysis complete panel - Urine"
+      },
+      {
+        "code": "473231009",
+        "original_code": "473231009",
+        "system": "SNOMED",
+        "display": "Renal disorder medication review (procedure)"
+      },
+      {
+        "code": "711446003",
+        "original_code": "711446003",
+        "system": "SNOMED",
+        "display": "Transplantation of kidney regime (regime/therapy)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 1229.12,
+    "currency": "USD",
+    "payer_name": "Aetna",
+    "payer_id": "blue_cross_blue_shield",
+    "plan_type": "PPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "timely_filing_risk"
+    ],
+    "expected_denial_category": "timely_filing"
+  },
+  {
+    "claim_id": "75387002-6158-43fa-9eb2-1266cb585e0d",
+    "original_fhir_id": "55087eb9-d0fe-bcab-13b2-6bc111b5fd9a",
+    "timestamp": "2026-01-27T16:49:19.342847",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-10-25",
+    "submission_date": "2026-01-27",
+    "diagnosis_codes": [
+      {
+        "code": "314529007",
+        "system": "SNOMED",
+        "display": "Medication review due (situation)"
+      },
+      {
+        "code": "741062008",
+        "system": "SNOMED",
+        "display": "Not in labor force (finding)"
+      }
+    ],
+    "procedure_codes": [
+      {
+        "code": "99213",
+        "original_code": "185349003",
+        "system": "CPT",
+        "display": "Encounter for check up (procedure)"
+      },
+      {
+        "code": "314529007",
+        "original_code": "314529007",
+        "system": "SNOMED",
+        "display": "Medication review due (situation)"
+      },
+      {
+        "code": "99214",
+        "original_code": "430193006",
+        "system": "CPT",
+        "display": "Medication reconciliation (procedure)"
+      },
+      {
+        "code": "24321-2",
+        "original_code": "24321-2",
+        "system": "SNOMED",
+        "display": "Basic metabolic 2000 panel - Serum or Plasma"
+      },
+      {
+        "code": "24357-6",
+        "original_code": "24357-6",
+        "system": "SNOMED",
+        "display": "Urinalysis macro (dipstick) panel - Urine"
+      },
+      {
+        "code": "51990-0",
+        "original_code": "51990-0",
+        "system": "SNOMED",
+        "display": "Basic metabolic panel - Blood"
+      },
+      {
+        "code": "57698-3",
+        "original_code": "57698-3",
+        "system": "SNOMED",
+        "display": "Lipid panel with direct LDL - Serum or Plasma"
+      },
+      {
+        "code": "99406",
+        "original_code": "710824005",
+        "system": "CPT",
+        "display": "Assessment of health and social care needs (procedure)"
+      },
+      {
+        "code": "741062008",
+        "original_code": "741062008",
+        "system": "SNOMED",
+        "display": "Not in labor force (finding)"
+      },
+      {
+        "code": "710841007",
+        "original_code": "710841007",
+        "system": "SNOMED",
+        "display": "Assessment of anxiety (procedure)"
+      },
+      {
+        "code": "69737-5",
+        "original_code": "69737-5",
+        "system": "SNOMED",
+        "display": "Generalized anxiety disorder 7 item (GAD-7)"
+      },
+      {
+        "code": "762993000",
+        "original_code": "762993000",
+        "system": "SNOMED",
+        "display": "Assessment using Morse Fall Scale (procedure)"
+      },
+      {
+        "code": "59453-1",
+        "original_code": "59453-1",
+        "system": "SNOMED",
+        "display": "Morse Fall Scale panel"
+      },
+      {
+        "code": "171207006",
+        "original_code": "171207006",
+        "system": "SNOMED",
+        "display": "Depression screening (procedure)"
+      },
+      {
+        "code": "171207006",
+        "original_code": "171207006",
+        "system": "SNOMED",
+        "display": "Depression screening (procedure)"
+      },
+      {
+        "code": "55757-9",
+        "original_code": "55757-9",
+        "system": "SNOMED",
+        "display": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+      },
+      {
+        "code": "103697008",
+        "original_code": "103697008",
+        "system": "SNOMED",
+        "display": "Patient referral for dental care (procedure)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 1030.97,
+    "currency": "USD",
+    "payer_name": "Aetna",
+    "payer_id": "aetna",
+    "plan_type": "HMO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "timely_filing_risk"
+    ],
+    "expected_denial_category": "timely_filing"
+  },
+  {
+    "claim_id": "f1bc6edb-d06a-4457-a7ed-13b7890c402c",
+    "original_fhir_id": "55087eb9-d0fe-bcab-f3c3-73667e042fea",
+    "timestamp": "2026-01-27T16:49:19.343432",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "Fitchburg Outpatient Clinic",
+    "provider_npi": "1234567890",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "outpatient",
+    "service_date": "2026-01-01",
+    "submission_date": "2026-01-05",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "1808217",
+        "original_code": "1808217",
+        "system": "SNOMED",
+        "display": "100 ML Propofol 10 MG/ML Injection"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 0.13,
+    "currency": "USD",
+    "payer_name": "UnitedHealthcare",
+    "payer_id": "unitedhealthcare",
+    "plan_type": "HMO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "potential_duplicate"
+    ],
+    "expected_denial_category": "duplicate"
+  },
+  {
+    "claim_id": "0adbe6a5-81aa-4787-89ed-5324813ce0c8",
+    "original_fhir_id": "55087eb9-d0fe-bcab-8ec5-8ea97abce622",
+    "timestamp": "2026-01-27T16:49:19.343404",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "Fitchburg Outpatient Clinic",
+    "provider_npi": "1234567890",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "outpatient",
+    "service_date": "2026-01-06",
+    "submission_date": "2026-01-19",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "311034",
+        "original_code": "311034",
+        "system": "SNOMED",
+        "display": "insulin, regular, human 100 UNT/ML Injectable Solution"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 129.94,
+    "currency": "USD",
+    "payer_name": "Cigna",
+    "payer_id": "cigna",
+    "plan_type": "HMO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "potential_duplicate"
+    ],
+    "expected_denial_category": "duplicate"
+  },
+  {
+    "claim_id": "a66a2dba-0618-415e-88bc-623c3d42177c",
+    "original_fhir_id": "55087eb9-d0fe-bcab-c4d9-4244acea3d0d",
+    "timestamp": "2026-01-27T16:49:19.354348",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "OUT OF NETWORK SPECIALIST",
+    "provider_npi": "9999999999",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-10-30",
+    "submission_date": "2025-11-05",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "313521",
+        "original_code": "313521",
+        "system": "SNOMED",
+        "display": "tropicamide 5 MG/ML Ophthalmic Solution"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 129.94,
+    "currency": "USD",
+    "payer_name": "Medicare",
+    "payer_id": "medicare",
+    "plan_type": "HMO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "out_of_network",
+      "hmo_no_referral"
+    ],
+    "expected_denial_category": "out_of_network"
+  },
+  {
+    "claim_id": "2fd137fc-f8f9-4f95-b5e1-d7211a2c4f5c",
+    "original_fhir_id": "55087eb9-d0fe-bcab-dcf9-c33996d9b132",
+    "timestamp": "2026-01-27T16:49:19.343512",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "OUT OF NETWORK SPECIALIST",
+    "provider_npi": "9999999999",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "inpatient",
+    "service_date": "2025-12-03",
+    "submission_date": "2025-12-06",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "305342007",
+        "original_code": "305342007",
+        "system": "SNOMED",
+        "display": "Admission to ward (procedure)"
+      },
+      {
+        "code": "243063003",
+        "original_code": "243063003",
+        "system": "SNOMED",
+        "display": "Postoperative procedure education (procedure)"
+      },
+      {
+        "code": "302761001",
+        "original_code": "302761001",
+        "system": "SNOMED",
+        "display": "Walking exercise test (procedure)"
+      },
+      {
+        "code": "252482003",
+        "original_code": "252482003",
+        "system": "SNOMED",
+        "display": "Stair-climbing test (procedure)"
+      },
+      {
+        "code": "308283009",
+        "original_code": "308283009",
+        "system": "SNOMED",
+        "display": "Discharge from hospital (procedure)"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 1871.78,
+    "currency": "USD",
+    "payer_name": "Medicaid",
+    "payer_id": "medicaid",
+    "plan_type": "HMO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "out_of_network",
+      "hmo_no_referral"
+    ],
+    "expected_denial_category": "out_of_network"
+  },
+  {
+    "claim_id": "40e9f8cc-207e-442d-b997-d56d594ce936",
+    "original_fhir_id": "55087eb9-d0fe-bcab-9d1e-7db239722741",
+    "timestamp": "2026-01-27T16:49:19.343395",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "OUT OF NETWORK SPECIALIST",
+    "provider_npi": "9999999999",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "outpatient",
+    "service_date": "2025-11-26",
+    "submission_date": "2025-12-07",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "1796676",
+        "original_code": "1796676",
+        "system": "SNOMED",
+        "display": "25 ML protamine sulfate (USP) 10 MG/ML Injection"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 129.94,
+    "currency": "USD",
+    "payer_name": "Humana",
+    "payer_id": "humana",
+    "plan_type": "HMO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "out_of_network",
+      "hmo_no_referral"
+    ],
+    "expected_denial_category": "out_of_network"
+  },
+  {
+    "claim_id": "a388e119-a0d6-4751-8e97-7450117cbf1b",
+    "original_fhir_id": "55087eb9-d0fe-bcab-7fda-6edb2cd168be",
+    "timestamp": "2026-01-27T16:49:19.343441",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "Fitchburg Outpatient Clinic",
+    "provider_npi": "1234567890",
+    "facility_name": "Fitchburg Outpatient Clinic",
+    "facility_type": "outpatient",
+    "service_date": "2025-09-05",
+    "submission_date": "2025-09-15",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "99213",
+        "original_code": "99213",
+        "system": "CPT",
+        "display": "Office visit, established patient"
+      },
+      {
+        "code": "36415",
+        "original_code": "36415",
+        "system": "CPT",
+        "display": "Venipuncture"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 0.5,
+    "currency": "USD",
+    "payer_name": "Blue Cross Blue Shield",
+    "payer_id": "blue_cross_blue_shield",
+    "plan_type": "EPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "bundling_issue",
+      "missing_modifier"
+    ],
+    "expected_denial_category": "bundling"
+  },
+  {
+    "claim_id": "048e9455-be8a-4a43-a3f1-af99d4863709",
+    "original_fhir_id": "55087eb9-d0fe-bcab-2c8c-069da13dc557",
+    "timestamp": "2026-01-27T16:49:19.334572",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC",
+    "provider_npi": "1234567890",
+    "facility_name": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC",
+    "facility_type": "outpatient",
+    "service_date": "2025-08-24",
+    "submission_date": "2025-08-31",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "99213",
+        "original_code": "99213",
+        "system": "CPT",
+        "display": "Office visit, established patient"
+      },
+      {
+        "code": "36415",
+        "original_code": "36415",
+        "system": "CPT",
+        "display": "Venipuncture"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 4.63,
+    "currency": "USD",
+    "payer_name": "Aetna",
+    "payer_id": "aetna",
+    "plan_type": "Medicare",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "bundling_issue",
+      "missing_modifier"
+    ],
+    "expected_denial_category": "bundling"
+  },
+  {
+    "claim_id": "f832e9d6-b189-490b-831f-f23b6d4ea792",
+    "original_fhir_id": "55087eb9-d0fe-bcab-db30-17e8127f1502",
+    "timestamp": "2026-01-27T16:49:19.341542",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "DEDHAM MEDICAL ASSOCIATES URGENT CARE CENTER LLC",
+    "provider_npi": "1234567890",
+    "facility_name": "DEDHAM MEDICAL ASSOCIATES URGENT CARE CENTER LLC",
+    "facility_type": "outpatient",
+    "service_date": "2025-08-06",
+    "submission_date": "2025-08-18",
+    "diagnosis_codes": [
+      {
+        "code": "314529007",
+        "system": "SNOMED",
+        "display": "Medication review due (situation)"
+      }
+    ],
+    "procedure_codes": [
+      {
+        "code": "97110",
+        "original_code": "97110",
+        "system": "CPT",
+        "display": "Therapeutic exercises"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 291.74,
+    "currency": "USD",
+    "payer_name": "UnitedHealthcare",
+    "payer_id": "unitedhealthcare",
+    "plan_type": "POS",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": "Visit 58 of physical therapy for chronic back pain. Patient has received 57 prior visits this year.",
+    "risk_factors": [
+      "benefit_maximum_risk",
+      "high_utilization"
+    ],
+    "expected_denial_category": "benefit_maximum"
+  },
+  {
+    "claim_id": "0903fc21-7f93-453c-9d47-7af1a263ef18",
+    "original_fhir_id": "55087eb9-d0fe-bcab-5e6b-5f0799ed9e3f",
+    "timestamp": "2026-01-27T16:49:19.334532",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-08-10",
+    "submission_date": "2025-08-23",
+    "diagnosis_codes": [],
+    "procedure_codes": [
+      {
+        "code": "97110",
+        "original_code": "97110",
+        "system": "CPT",
+        "display": "Therapeutic exercises"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 41.45,
+    "currency": "USD",
+    "payer_name": "Cigna",
+    "payer_id": "cigna",
+    "plan_type": "PPO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": "Visit 58 of physical therapy for chronic back pain. Patient has received 57 prior visits this year.",
+    "risk_factors": [
+      "benefit_maximum_risk",
+      "high_utilization"
+    ],
+    "expected_denial_category": "benefit_maximum"
+  },
+  {
+    "claim_id": "a729af11-dc1d-44fc-b1d3-845de107066b",
+    "original_fhir_id": "55087eb9-d0fe-bcab-eda0-81c654fb5f19",
+    "timestamp": "2026-01-27T16:49:19.354182",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "outpatient",
+    "service_date": "2025-10-24",
+    "submission_date": "2025-10-25",
+    "diagnosis_codes": [
+      {
+        "code": "R10.9",
+        "system": "ICD-10",
+        "display": "Unspecified abdominal pain"
+      }
+    ],
+    "procedure_codes": [
+      {
+        "code": "99215",
+        "original_code": "99215",
+        "system": "CPT",
+        "display": "Office visit, high complexity"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 129.94,
+    "currency": "USD",
+    "payer_name": "Medicare",
+    "payer_id": "medicare",
+    "plan_type": "POS",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "documentation_insufficient",
+      "vague_diagnosis"
+    ],
+    "expected_denial_category": "documentation"
+  },
+  {
+    "claim_id": "0e0f04b1-797b-4b92-b9c2-cee363a2b67b",
+    "original_fhir_id": "55087eb9-d0fe-bcab-8a3e-60f14cb8805d",
+    "timestamp": "2026-01-27T16:49:19.354033",
+    "patient_id": "55087eb9...",
+    "patient_age": 77,
+    "patient_gender": "female",
+    "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "provider_npi": "1234567890",
+    "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+    "facility_type": "inpatient",
+    "service_date": "2025-10-21",
+    "submission_date": "2025-10-26",
+    "diagnosis_codes": [
+      {
+        "code": "R10.9",
+        "system": "ICD-10",
+        "display": "Unspecified abdominal pain"
+      }
+    ],
+    "procedure_codes": [
+      {
+        "code": "99215",
+        "original_code": "99215",
+        "system": "CPT",
+        "display": "Office visit, high complexity"
+      }
+    ],
+    "modifiers": [],
+    "place_of_service": "22",
+    "billed_amount": 13349.9,
+    "currency": "USD",
+    "payer_name": "Medicaid",
+    "payer_id": "medicaid",
+    "plan_type": "HMO",
+    "prior_auth_number": null,
+    "prior_auth_required": false,
+    "clinical_notes_summary": null,
+    "risk_factors": [
+      "documentation_insufficient",
+      "vague_diagnosis"
+    ],
+    "expected_denial_category": "documentation"
+  }
+]

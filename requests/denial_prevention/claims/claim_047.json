@@ -1,0 +1,33 @@
+{
+  "claim_id": "3dc114d8-41a0-4905-9868-be9fed5565f6",
+  "original_fhir_id": "55087eb9-d0fe-bcab-3a4a-b3833b13cae3",
+  "timestamp": "2026-01-27T16:49:19.338460",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BENJAMIN HEALTHCARE CENTER",
+  "provider_npi": "1234567890",
+  "facility_name": "BENJAMIN HEALTHCARE CENTER",
+  "facility_type": "outpatient",
+  "service_date": "2026-01-18",
+  "submission_date": "2026-01-27",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "860975",
+      "original_code": "860975",
+      "system": "SNOMED",
+      "display": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 2.06,
+  "currency": "USD",
+  "payer_name": "Medicare",
+  "payer_id": "medicare",
+  "plan_type": "Medicaid",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

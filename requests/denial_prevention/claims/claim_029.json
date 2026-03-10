@@ -1,0 +1,33 @@
+{
+  "claim_id": "63b556b6-3e53-4126-8cab-4f4ff76b893a",
+  "original_fhir_id": "55087eb9-d0fe-bcab-7d2e-20ee79f64969",
+  "timestamp": "2026-01-27T16:49:19.336184",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "DEDHAM MEDICAL ASSOCIATES URGENT CARE CENTER LLC",
+  "provider_npi": "1234567890",
+  "facility_name": "DEDHAM MEDICAL ASSOCIATES URGENT CARE CENTER LLC",
+  "facility_type": "outpatient",
+  "service_date": "2025-10-18",
+  "submission_date": "2025-10-20",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "314076",
+      "original_code": "314076",
+      "system": "SNOMED",
+      "display": "lisinopril 10 MG Oral Tablet"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 0.91,
+  "currency": "USD",
+  "payer_name": "Blue Cross Blue Shield",
+  "payer_id": "blue_cross_blue_shield",
+  "plan_type": "Medicare",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

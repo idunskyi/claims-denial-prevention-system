@@ -1,0 +1,33 @@
+{
+  "claim_id": "8ada607c-8d5b-4295-9837-c2d06a05f5ff",
+  "original_fhir_id": "55087eb9-d0fe-bcab-cfb4-b2f558e3ce78",
+  "timestamp": "2026-01-27T16:49:19.341339",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BENJAMIN HEALTHCARE CENTER",
+  "provider_npi": "1234567890",
+  "facility_name": "BENJAMIN HEALTHCARE CENTER",
+  "facility_type": "outpatient",
+  "service_date": "2025-08-09",
+  "submission_date": "2025-08-19",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "309362",
+      "original_code": "309362",
+      "system": "SNOMED",
+      "display": "Clopidogrel 75 MG Oral Tablet"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 62.83,
+  "currency": "USD",
+  "payer_name": "Humana",
+  "payer_id": "humana",
+  "plan_type": "POS",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

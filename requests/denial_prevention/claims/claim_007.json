@@ -1,0 +1,33 @@
+{
+  "claim_id": "7ebc6e5a-950e-42a4-81b8-0e4aee29514e",
+  "original_fhir_id": "55087eb9-d0fe-bcab-652a-27c22d62f866",
+  "timestamp": "2026-01-27T16:49:19.343386",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "Fitchburg Outpatient Clinic",
+  "provider_npi": "1234567890",
+  "facility_name": "Fitchburg Outpatient Clinic",
+  "facility_type": "outpatient",
+  "service_date": "2025-09-18",
+  "submission_date": "2025-09-20",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "1659263",
+      "original_code": "1659263",
+      "system": "SNOMED",
+      "display": "1 ML heparin sodium, porcine 5000 UNT/ML Injection"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 0.6,
+  "currency": "USD",
+  "payer_name": "Humana",
+  "payer_id": "humana",
+  "plan_type": "PPO",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

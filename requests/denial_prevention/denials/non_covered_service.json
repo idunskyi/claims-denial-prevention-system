@@ -1,0 +1,39 @@
+[
+  {
+    "category": "non_covered_service",
+    "carc_code": "96",
+    "denial_reason": "Service is excluded from patient's benefit plan",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "D0120",
+        "D0220"
+      ]
+    },
+    "remediation": "Verify benefit coverage with payer. Consider medical necessity appeal if service is typically excluded but medically indicated.",
+    "appeal_template": "Service is medically necessary due to [condition]. Request exception to exclusion based on [medical justification].",
+    "success_rate": 0.2,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "3609e64f-9340-4dc4-82d0-25a6988c5485",
+    "created_at": "2026-01-27T16:51:31.468157",
+    "embedding": null,
+    "embedding_text": "non_covered_service Service is excluded from patient's benefit plan Verify benefit coverage with payer. Consider medical necessity appeal if service is typically excluded but medically indicated."
+  },
+  {
+    "category": "non_covered_service",
+    "carc_code": "204",
+    "denial_reason": "Service not covered under patient's current benefit plan",
+    "trigger_patterns": {},
+    "remediation": "Review plan benefits. Inform patient of non-covered status. Patient may appeal for plan exception or pay out-of-pocket.",
+    "appeal_template": "Request benefit exception based on medical necessity. Patient has no alternative covered treatment option.",
+    "success_rate": 0.25,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "355d9343-bbea-4859-8c66-d209afe8d9f8",
+    "created_at": "2026-01-27T16:51:31.468160",
+    "embedding": null,
+    "embedding_text": "non_covered_service Service not covered under patient's current benefit plan Review plan benefits. Inform patient of non-covered status. Patient may appeal for plan exception or pay out-of-pocket."
+  }
+]

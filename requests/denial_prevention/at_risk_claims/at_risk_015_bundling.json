@@ -1,0 +1,44 @@
+{
+  "claim_id": "a388e119-a0d6-4751-8e97-7450117cbf1b",
+  "original_fhir_id": "55087eb9-d0fe-bcab-7fda-6edb2cd168be",
+  "timestamp": "2026-01-27T16:49:19.343441",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "Fitchburg Outpatient Clinic",
+  "provider_npi": "1234567890",
+  "facility_name": "Fitchburg Outpatient Clinic",
+  "facility_type": "outpatient",
+  "service_date": "2025-09-05",
+  "submission_date": "2025-09-15",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "99213",
+      "original_code": "99213",
+      "system": "CPT",
+      "display": "Office visit, established patient"
+    },
+    {
+      "code": "36415",
+      "original_code": "36415",
+      "system": "CPT",
+      "display": "Venipuncture"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 0.5,
+  "currency": "USD",
+  "payer_name": "Blue Cross Blue Shield",
+  "payer_id": "blue_cross_blue_shield",
+  "plan_type": "EPO",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null,
+  "risk_factors": [
+    "bundling_issue",
+    "missing_modifier"
+  ],
+  "expected_denial_category": "bundling"
+}

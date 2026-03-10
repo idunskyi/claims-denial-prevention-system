@@ -1,0 +1,33 @@
+{
+  "claim_id": "74031148-7794-45c4-8f63-26ca9ff1a3f6",
+  "original_fhir_id": "55087eb9-d0fe-bcab-2c8c-069da13dc557",
+  "timestamp": "2026-01-27T16:49:19.334572",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC",
+  "provider_npi": "1234567890",
+  "facility_name": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC",
+  "facility_type": "outpatient",
+  "service_date": "2025-08-24",
+  "submission_date": "2025-08-31",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "860975",
+      "original_code": "860975",
+      "system": "SNOMED",
+      "display": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 4.63,
+  "currency": "USD",
+  "payer_name": "Aetna",
+  "payer_id": "aetna",
+  "plan_type": "Medicare",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

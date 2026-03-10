@@ -1,0 +1,69 @@
+{
+  "claim_id": "f93aeb2a-9fb7-41e8-a14f-0b11989cabd0",
+  "original_fhir_id": "55087eb9-d0fe-bcab-2a4e-48bdd448b7e5",
+  "timestamp": "2026-01-27T16:49:19.335228",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "provider_npi": "1234567890",
+  "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "facility_type": "outpatient",
+  "service_date": "2025-12-04",
+  "submission_date": "2025-12-18",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "36228007",
+      "original_code": "36228007",
+      "system": "SNOMED",
+      "display": "Ophthalmic examination and evaluation (procedure)"
+    },
+    {
+      "code": "16830007",
+      "original_code": "16830007",
+      "system": "SNOMED",
+      "display": "Visual acuity testing (procedure)"
+    },
+    {
+      "code": "252832004",
+      "original_code": "252832004",
+      "system": "SNOMED",
+      "display": "Intraocular pressure test (procedure)"
+    },
+    {
+      "code": "55468007",
+      "original_code": "55468007",
+      "system": "SNOMED",
+      "display": "Ocular slit lamp examination (procedure)"
+    },
+    {
+      "code": "389153003",
+      "original_code": "389153003",
+      "system": "SNOMED",
+      "display": "Indirect gonioscopy (procedure)"
+    },
+    {
+      "code": "314971001",
+      "original_code": "314971001",
+      "system": "SNOMED",
+      "display": "Camera fundoscopy (procedure)"
+    },
+    {
+      "code": "722161008",
+      "original_code": "722161008",
+      "system": "SNOMED",
+      "display": "Diabetic retinal eye exam (procedure)"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 2730.98,
+  "currency": "USD",
+  "payer_name": "Aetna",
+  "payer_id": "aetna",
+  "plan_type": "HMO",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

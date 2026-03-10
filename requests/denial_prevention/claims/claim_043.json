@@ -1,0 +1,39 @@
+{
+  "claim_id": "06a44a30-cd06-4992-a1c1-3f6da242fa98",
+  "original_fhir_id": "55087eb9-d0fe-bcab-7b9f-16c00bb61007",
+  "timestamp": "2026-01-27T16:49:19.353295",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "provider_npi": "1234567890",
+  "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "facility_type": "outpatient",
+  "service_date": "2025-11-26",
+  "submission_date": "2025-11-27",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "185347001",
+      "original_code": "185347001",
+      "system": "SNOMED",
+      "display": "Encounter for problem (procedure)"
+    },
+    {
+      "code": "265764009",
+      "original_code": "265764009",
+      "system": "SNOMED",
+      "display": "Renal dialysis (procedure)"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 535.87,
+  "currency": "USD",
+  "payer_name": "Blue Cross Blue Shield",
+  "payer_id": "blue_cross_blue_shield",
+  "plan_type": "Medicaid",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

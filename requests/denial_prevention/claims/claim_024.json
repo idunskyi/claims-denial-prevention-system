@@ -1,0 +1,33 @@
+{
+  "claim_id": "aba1ad9c-9fa5-49a9-b9df-f52ee0544b59",
+  "original_fhir_id": "55087eb9-d0fe-bcab-489f-6b7e4befbea7",
+  "timestamp": "2026-01-27T16:49:19.343377",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "Fitchburg Outpatient Clinic",
+  "provider_npi": "1234567890",
+  "facility_name": "Fitchburg Outpatient Clinic",
+  "facility_type": "outpatient",
+  "service_date": "2026-01-26",
+  "submission_date": "2026-01-30",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "1665060",
+      "original_code": "1665060",
+      "system": "SNOMED",
+      "display": "cefazolin 2000 MG Injection"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 129.94,
+  "currency": "USD",
+  "payer_name": "UnitedHealthcare",
+  "payer_id": "unitedhealthcare",
+  "plan_type": "POS",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

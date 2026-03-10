@@ -1,0 +1,57 @@
+{
+  "claim_id": "f148f9e2-e5b9-417c-8151-cd7c6b029586",
+  "original_fhir_id": "55087eb9-d0fe-bcab-db30-17e8127f1502",
+  "timestamp": "2026-01-27T16:49:19.341542",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "DEDHAM MEDICAL ASSOCIATES URGENT CARE CENTER LLC",
+  "provider_npi": "1234567890",
+  "facility_name": "DEDHAM MEDICAL ASSOCIATES URGENT CARE CENTER LLC",
+  "facility_type": "outpatient",
+  "service_date": "2025-08-06",
+  "submission_date": "2025-08-18",
+  "diagnosis_codes": [
+    {
+      "code": "314529007",
+      "system": "SNOMED",
+      "display": "Medication review due (situation)"
+    }
+  ],
+  "procedure_codes": [
+    {
+      "code": "702927004",
+      "original_code": "702927004",
+      "system": "SNOMED",
+      "display": "Urgent care clinic (environment)"
+    },
+    {
+      "code": "314529007",
+      "original_code": "314529007",
+      "system": "SNOMED",
+      "display": "Medication review due (situation)"
+    },
+    {
+      "code": "24321-2",
+      "original_code": "24321-2",
+      "system": "SNOMED",
+      "display": "Basic metabolic 2000 panel - Serum or Plasma"
+    },
+    {
+      "code": "24357-6",
+      "original_code": "24357-6",
+      "system": "SNOMED",
+      "display": "Urinalysis macro (dipstick) panel - Urine"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 291.74,
+  "currency": "USD",
+  "payer_name": "UnitedHealthcare",
+  "payer_id": "unitedhealthcare",
+  "plan_type": "POS",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

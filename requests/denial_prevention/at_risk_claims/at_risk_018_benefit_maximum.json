@@ -1,0 +1,38 @@
+{
+  "claim_id": "0903fc21-7f93-453c-9d47-7af1a263ef18",
+  "original_fhir_id": "55087eb9-d0fe-bcab-5e6b-5f0799ed9e3f",
+  "timestamp": "2026-01-27T16:49:19.334532",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "provider_npi": "1234567890",
+  "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "facility_type": "outpatient",
+  "service_date": "2025-08-10",
+  "submission_date": "2025-08-23",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "97110",
+      "original_code": "97110",
+      "system": "CPT",
+      "display": "Therapeutic exercises"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 41.45,
+  "currency": "USD",
+  "payer_name": "Cigna",
+  "payer_id": "cigna",
+  "plan_type": "PPO",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": "Visit 58 of physical therapy for chronic back pain. Patient has received 57 prior visits this year.",
+  "risk_factors": [
+    "benefit_maximum_risk",
+    "high_utilization"
+  ],
+  "expected_denial_category": "benefit_maximum"
+}

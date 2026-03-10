@@ -1,0 +1,38 @@
+{
+  "claim_id": "a12aaa7f-f7e6-41df-a26b-1c6eeaffad87",
+  "original_fhir_id": "55087eb9-d0fe-bcab-ee75-52b8c3b2fcd9",
+  "timestamp": "2026-01-27T16:49:19.341348",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BENJAMIN HEALTHCARE CENTER",
+  "provider_npi": "1234567890",
+  "facility_name": "BENJAMIN HEALTHCARE CENTER",
+  "facility_type": "outpatient",
+  "service_date": "2025-09-30",
+  "submission_date": "2025-10-09",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "27447",
+      "original_code": "27447",
+      "system": "CPT",
+      "display": "Total knee replacement"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 37633.58,
+  "currency": "USD",
+  "payer_name": "Aetna",
+  "payer_id": "aetna",
+  "plan_type": "Medicaid",
+  "prior_auth_number": null,
+  "prior_auth_required": true,
+  "clinical_notes_summary": null,
+  "risk_factors": [
+    "missing_prior_auth",
+    "high_cost_procedure"
+  ],
+  "expected_denial_category": "prior_authorization"
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "category": "benefit_maximum",
+    "carc_code": "119",
+    "denial_reason": "Annual or lifetime benefit maximum reached",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "97110",
+        "97140",
+        "97530"
+      ]
+    },
+    "remediation": "Verify remaining benefits. Request exception for additional coverage due to medical necessity. Consider alternative payment arrangements.",
+    "appeal_template": "Request benefit exception. Patient requires continued treatment due to [medical necessity]. Documentation demonstrates ongoing progress toward functional goals.",
+    "success_rate": 0.35,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "c444fff7-e32f-4f91-b6e8-b4a462d529f4",
+    "created_at": "2026-01-27T16:51:31.468184",
+    "embedding": null,
+    "embedding_text": "benefit_maximum Annual or lifetime benefit maximum reached Verify remaining benefits. Request exception for additional coverage due to medical necessity. Consider alternative payment arrangements."
+  },
+  {
+    "category": "benefit_maximum",
+    "carc_code": "35",
+    "denial_reason": "Lifetime maximum benefit has been reached",
+    "trigger_patterns": {},
+    "remediation": "Inform patient of lifetime max. Explore other coverage options, charity care programs, or payment plans.",
+    "appeal_template": "Request exception to lifetime maximum. Patient's condition is [unique circumstance]. No alternative treatment options exist.",
+    "success_rate": 0.15,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "2d6aa0d8-ed2c-48a2-9ac1-dc9a0fe645da",
+    "created_at": "2026-01-27T16:51:31.468187",
+    "embedding": null,
+    "embedding_text": "benefit_maximum Lifetime maximum benefit has been reached Inform patient of lifetime max. Explore other coverage options, charity care programs, or payment plans."
+  }
+]

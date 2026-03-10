@@ -1,0 +1,128 @@
+[
+  {
+    "category": "coding_error",
+    "carc_code": "4",
+    "denial_reason": "Procedure code is inconsistent with modifier used",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "99213"
+      ],
+      "modifiers": [
+        "25"
+      ]
+    },
+    "remediation": "Modifier 25 requires separately identifiable E/M service. Remove modifier or ensure documentation supports distinct service.",
+    "appeal_template": "Modifier 25 was appropriately used to indicate a separately identifiable E/M service distinct from the procedure performed.",
+    "success_rate": 0.75,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "ffd0ac31-99dc-4d07-bd9d-f367b05e0c62",
+    "created_at": "2026-01-27T16:51:31.468122",
+    "embedding": null,
+    "embedding_text": "coding_error Procedure code is inconsistent with modifier used Modifier 25 requires separately identifiable E/M service. Remove modifier or ensure documentation supports distinct service."
+  },
+  {
+    "category": "coding_error",
+    "carc_code": "11",
+    "denial_reason": "Diagnosis code does not support procedure code",
+    "trigger_patterns": {
+      "diagnosis_codes": [
+        "Z23"
+      ],
+      "procedure_codes": [
+        "99213"
+      ]
+    },
+    "remediation": "Review diagnosis codes for specificity. Use codes that clearly indicate medical necessity for the procedure performed.",
+    "appeal_template": "Primary diagnosis [code] directly supports the medical necessity for [procedure]. Supporting documentation attached.",
+    "success_rate": 0.8,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "69a61684-e832-49c2-91bd-536ade8ef29a",
+    "created_at": "2026-01-27T16:51:31.468126",
+    "embedding": null,
+    "embedding_text": "coding_error Diagnosis code does not support procedure code Review diagnosis codes for specificity. Use codes that clearly indicate medical necessity for the procedure performed."
+  },
+  {
+    "category": "coding_error",
+    "carc_code": "5",
+    "denial_reason": "Procedure code inconsistent with place of service",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "99281",
+        "99282"
+      ],
+      "place_of_service": "11"
+    },
+    "remediation": "Verify place of service code matches where service was actually rendered. POS 11=Office, 21=Hospital Inpatient, 22=Outpatient, 23=ER.",
+    "appeal_template": "Place of service has been corrected to accurately reflect service location. Corrected claim attached.",
+    "success_rate": 0.9,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "ef08b316-e054-4069-a689-2c23d598120d",
+    "created_at": "2026-01-27T16:51:31.468129",
+    "embedding": null,
+    "embedding_text": "coding_error Procedure code inconsistent with place of service Verify place of service code matches where service was actually rendered. POS 11=Office, 21=Hospital Inpatient, 22=Outpatient, 23=ER."
+  },
+  {
+    "category": "coding_error",
+    "carc_code": "181",
+    "denial_reason": "Procedure code was invalid on the date of service",
+    "trigger_patterns": {},
+    "remediation": "Verify procedure code is valid for date of service. Check for code changes in annual CPT updates. Use successor code if applicable.",
+    "appeal_template": "Corrected claim submitted with valid procedure code [code] effective for date of service.",
+    "success_rate": 0.95,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "5a9116bc-cb79-4693-aca6-75948173fb42",
+    "created_at": "2026-01-27T16:51:31.468132",
+    "embedding": null,
+    "embedding_text": "coding_error Procedure code was invalid on the date of service Verify procedure code is valid for date of service. Check for code changes in annual CPT updates. Use successor code if applicable."
+  },
+  {
+    "category": "coding_error",
+    "carc_code": "207",
+    "denial_reason": "Required modifier is missing",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "77067"
+      ],
+      "modifiers": []
+    },
+    "remediation": "Add required modifier (e.g., bilateral modifier 50, distinct procedural service modifier 59, screening modifier 33).",
+    "appeal_template": "Claim corrected with appropriate modifier [modifier] to indicate [reason].",
+    "success_rate": 0.92,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "e2cd3cc6-aa27-48e6-a0df-1397e778538d",
+    "created_at": "2026-01-27T16:51:31.468135",
+    "embedding": null,
+    "embedding_text": "coding_error Required modifier is missing Add required modifier (e.g., bilateral modifier 50, distinct procedural service modifier 59, screening modifier 33)."
+  },
+  {
+    "category": "coding_error",
+    "carc_code": "97",
+    "denial_reason": "Service bundled with another procedure - separate payment not allowed",
+    "trigger_patterns": {
+      "procedure_codes": [
+        "36415",
+        "99213"
+      ]
+    },
+    "remediation": "Review NCCI edits for bundling rules. Use modifier 59 or X{EPSU} only if services are truly distinct and separately documented.",
+    "appeal_template": "Services were distinct and separately identifiable per documentation. Modifier 59 appropriately indicates services were not bundled.",
+    "success_rate": 0.6,
+    "typical_payers": [
+      "all"
+    ],
+    "id": "edc6aea3-6032-4c20-8f4f-7c01102924ab",
+    "created_at": "2026-01-27T16:51:31.468138",
+    "embedding": null,
+    "embedding_text": "coding_error Service bundled with another procedure - separate payment not allowed Review NCCI edits for bundling rules. Use modifier 59 or X{EPSU} only if services are truly distinct and separately documented."
+  }
+]

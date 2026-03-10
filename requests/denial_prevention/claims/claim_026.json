@@ -1,0 +1,33 @@
+{
+  "claim_id": "d0b5d66b-8b9e-49c3-8164-f6e17e29d2f1",
+  "original_fhir_id": "55087eb9-d0fe-bcab-86be-c0b9e5c626e4",
+  "timestamp": "2026-01-27T16:49:19.345795",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "provider_npi": "1234567890",
+  "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "facility_type": "outpatient",
+  "service_date": "2025-09-06",
+  "submission_date": "2025-09-12",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "1535362",
+      "original_code": "1535362",
+      "system": "SNOMED",
+      "display": "sodium fluoride 0.0272 MG/MG Oral Gel"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 129.94,
+  "currency": "USD",
+  "payer_name": "Medicare",
+  "payer_id": "medicare",
+  "plan_type": "EPO",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

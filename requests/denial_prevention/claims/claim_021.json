@@ -1,0 +1,147 @@
+{
+  "claim_id": "610ff6df-bad8-443a-806e-491a642b792f",
+  "original_fhir_id": "55087eb9-d0fe-bcab-51e1-212e3d69a191",
+  "timestamp": "2026-01-27T16:49:19.343474",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "Fitchburg Outpatient Clinic",
+  "provider_npi": "1234567890",
+  "facility_name": "Fitchburg Outpatient Clinic",
+  "facility_type": "outpatient",
+  "service_date": "2025-09-22",
+  "submission_date": "2025-09-29",
+  "diagnosis_codes": [
+    {
+      "code": "399261000",
+      "system": "SNOMED",
+      "display": "History of coronary artery bypass grafting (situation)"
+    }
+  ],
+  "procedure_codes": [
+    {
+      "code": "32485007",
+      "original_code": "32485007",
+      "system": "SNOMED",
+      "display": "Hospital admission (procedure)"
+    },
+    {
+      "code": "24336-0",
+      "original_code": "24336-0",
+      "system": "SNOMED",
+      "display": "Gas panel - Arterial blood"
+    },
+    {
+      "code": "24339-4",
+      "original_code": "24339-4",
+      "system": "SNOMED",
+      "display": "Gas panel - Venous blood"
+    },
+    {
+      "code": "180178009",
+      "original_code": "180178009",
+      "system": "SNOMED",
+      "display": "Continuous subcutaneous infusion of insulin (procedure)"
+    },
+    {
+      "code": "392247006",
+      "original_code": "392247006",
+      "system": "SNOMED",
+      "display": "Insertion of catheter into artery (procedure)"
+    },
+    {
+      "code": "410770002",
+      "original_code": "410770002",
+      "system": "SNOMED",
+      "display": "Administration of anesthesia for procedure (procedure)"
+    },
+    {
+      "code": "52765003",
+      "original_code": "52765003",
+      "system": "SNOMED",
+      "display": "Intubation (procedure)"
+    },
+    {
+      "code": "65677008",
+      "original_code": "65677008",
+      "system": "SNOMED",
+      "display": "Pulmonary catheterization with Swan-Ganz catheter (procedure)"
+    },
+    {
+      "code": "223495004",
+      "original_code": "223495004",
+      "system": "SNOMED",
+      "display": "Preparation of patient for procedure (regime/therapy)"
+    },
+    {
+      "code": "42825003",
+      "original_code": "42825003",
+      "system": "SNOMED",
+      "display": "Cannulation (procedure)"
+    },
+    {
+      "code": "63697000",
+      "original_code": "63697000",
+      "system": "SNOMED",
+      "display": "Cardiopulmonary bypass operation (procedure)"
+    },
+    {
+      "code": "301882004",
+      "original_code": "301882004",
+      "system": "SNOMED",
+      "display": "Placement of aortic cross clamp (procedure)"
+    },
+    {
+      "code": "8290005",
+      "original_code": "8290005",
+      "system": "SNOMED",
+      "display": "Induced cardioplegia (procedure)"
+    },
+    {
+      "code": "359672006",
+      "original_code": "359672006",
+      "system": "SNOMED",
+      "display": "Median sternotomy (procedure)"
+    },
+    {
+      "code": "232717009",
+      "original_code": "232717009",
+      "system": "SNOMED",
+      "display": "Coronary artery bypass grafting (procedure)"
+    },
+    {
+      "code": "301884003",
+      "original_code": "301884003",
+      "system": "SNOMED",
+      "display": "Removal of aortic cross clamp (procedure)"
+    },
+    {
+      "code": "233553003",
+      "original_code": "233553003",
+      "system": "SNOMED",
+      "display": "Vascular cannula removal (procedure)"
+    },
+    {
+      "code": "399261000",
+      "original_code": "399261000",
+      "system": "SNOMED",
+      "display": "History of coronary artery bypass grafting (situation)"
+    },
+    {
+      "code": "23745001",
+      "original_code": "23745001",
+      "system": "SNOMED",
+      "display": "Documentation procedure (procedure)"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 24205.78,
+  "currency": "USD",
+  "payer_name": "Humana",
+  "payer_id": "humana",
+  "plan_type": "Medicaid",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

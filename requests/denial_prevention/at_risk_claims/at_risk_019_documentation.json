@@ -1,0 +1,44 @@
+{
+  "claim_id": "a729af11-dc1d-44fc-b1d3-845de107066b",
+  "original_fhir_id": "55087eb9-d0fe-bcab-eda0-81c654fb5f19",
+  "timestamp": "2026-01-27T16:49:19.354182",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "provider_npi": "1234567890",
+  "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "facility_type": "outpatient",
+  "service_date": "2025-10-24",
+  "submission_date": "2025-10-25",
+  "diagnosis_codes": [
+    {
+      "code": "R10.9",
+      "system": "ICD-10",
+      "display": "Unspecified abdominal pain"
+    }
+  ],
+  "procedure_codes": [
+    {
+      "code": "99215",
+      "original_code": "99215",
+      "system": "CPT",
+      "display": "Office visit, high complexity"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 129.94,
+  "currency": "USD",
+  "payer_name": "Medicare",
+  "payer_id": "medicare",
+  "plan_type": "POS",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null,
+  "risk_factors": [
+    "documentation_insufficient",
+    "vague_diagnosis"
+  ],
+  "expected_denial_category": "documentation"
+}

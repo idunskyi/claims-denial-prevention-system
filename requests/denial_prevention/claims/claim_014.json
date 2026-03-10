@@ -1,0 +1,33 @@
+{
+  "claim_id": "19b8c510-c2dc-483e-ac2e-72ba831b6d43",
+  "original_fhir_id": "55087eb9-d0fe-bcab-9d1e-7db239722741",
+  "timestamp": "2026-01-27T16:49:19.343395",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "Fitchburg Outpatient Clinic",
+  "provider_npi": "1234567890",
+  "facility_name": "Fitchburg Outpatient Clinic",
+  "facility_type": "outpatient",
+  "service_date": "2025-11-26",
+  "submission_date": "2025-12-07",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "1796676",
+      "original_code": "1796676",
+      "system": "SNOMED",
+      "display": "25 ML protamine sulfate (USP) 10 MG/ML Injection"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 129.94,
+  "currency": "USD",
+  "payer_name": "Humana",
+  "payer_id": "humana",
+  "plan_type": "Medicaid",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

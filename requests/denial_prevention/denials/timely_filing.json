@@ -1,0 +1,27 @@
+[
+  {
+    "category": "timely_filing",
+    "carc_code": "29",
+    "denial_reason": "Claim submitted after filing deadline",
+    "trigger_patterns": {},
+    "remediation": "Document reason for delay (prior payer processing, coordination of benefits, etc.). Most payers have exceptions for delays outside provider control.",
+    "appeal_template": "Timely filing exception requested. Initial submission to [payer] on [date] resulted in [outcome]. Coordination of benefits delayed secondary submission.",
+    "success_rate": 0.4,
+    "typical_payers": [
+      "all"
+    ],
+    "payer_specific_limits": {
+      "Medicare": 365,
+      "Medicaid": 365,
+      "Blue Cross Blue Shield": 180,
+      "Aetna": 90,
+      "UnitedHealthcare": 90,
+      "Cigna": 90,
+      "Humana": 365
+    },
+    "id": "5c566be8-1730-4f5c-a418-5d9aabc6895c",
+    "created_at": "2026-01-27T16:51:31.468148",
+    "embedding": null,
+    "embedding_text": "timely_filing Claim submitted after filing deadline Document reason for delay (prior payer processing, coordination of benefits, etc.). Most payers have exceptions for delays outside provider control."
+  }
+]

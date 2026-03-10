@@ -1,0 +1,33 @@
+{
+  "claim_id": "5c4c3df8-ff53-4f95-afd3-73cb404586bb",
+  "original_fhir_id": "55087eb9-d0fe-bcab-3947-525aa0558193",
+  "timestamp": "2026-01-27T16:49:19.342623",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "provider_npi": "1234567890",
+  "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "facility_type": "outpatient",
+  "service_date": "2025-09-09",
+  "submission_date": "2025-09-16",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "904419",
+      "original_code": "904419",
+      "system": "SNOMED",
+      "display": "Alendronic acid 10 MG Oral Tablet"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 1.4,
+  "currency": "USD",
+  "payer_name": "Medicaid",
+  "payer_id": "medicaid",
+  "plan_type": "Medicare",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

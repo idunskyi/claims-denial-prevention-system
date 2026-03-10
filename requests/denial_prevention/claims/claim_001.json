@@ -1,0 +1,39 @@
+{
+  "claim_id": "0f6f6589-da9b-4989-bbe7-a30fdc9ca18c",
+  "original_fhir_id": "55087eb9-d0fe-bcab-7aeb-4ff2c9273bf3",
+  "timestamp": "2026-01-27T16:49:19.341367",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BENJAMIN HEALTHCARE CENTER",
+  "provider_npi": "1234567890",
+  "facility_name": "BENJAMIN HEALTHCARE CENTER",
+  "facility_type": "outpatient",
+  "service_date": "2025-09-07",
+  "submission_date": "2025-09-14",
+  "diagnosis_codes": [
+    {
+      "code": "I20.9",
+      "system": "ICD-10",
+      "display": "Angina pectoris, unspecified"
+    }
+  ],
+  "procedure_codes": [
+    {
+      "code": "705129",
+      "original_code": "705129",
+      "system": "SNOMED",
+      "display": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 65.73,
+  "currency": "USD",
+  "payer_name": "Blue Cross Blue Shield",
+  "payer_id": "blue_cross_blue_shield",
+  "plan_type": "EPO",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

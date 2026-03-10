@@ -1,0 +1,45 @@
+{
+  "claim_id": "2bea13f6-4b53-4f3e-842f-e97c7b7a9a54",
+  "original_fhir_id": "55087eb9-d0fe-bcab-84cf-0e908259c057",
+  "timestamp": "2026-01-27T16:49:19.347436",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "provider_npi": "1234567890",
+  "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "facility_type": "outpatient",
+  "service_date": "2025-12-11",
+  "submission_date": "2025-12-23",
+  "diagnosis_codes": [],
+  "procedure_codes": [
+    {
+      "code": "185347001",
+      "original_code": "185347001",
+      "system": "SNOMED",
+      "display": "Encounter for problem (procedure)"
+    },
+    {
+      "code": "24323-8",
+      "original_code": "24323-8",
+      "system": "SNOMED",
+      "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+    },
+    {
+      "code": "24357-6",
+      "original_code": "24357-6",
+      "system": "SNOMED",
+      "display": "Urinalysis macro (dipstick) panel - Urine"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 234.71,
+  "currency": "USD",
+  "payer_name": "Medicaid",
+  "payer_id": "medicaid",
+  "plan_type": "Medicare",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null
+}

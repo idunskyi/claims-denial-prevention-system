@@ -1,0 +1,144 @@
+{
+  "claim_id": "75387002-6158-43fa-9eb2-1266cb585e0d",
+  "original_fhir_id": "55087eb9-d0fe-bcab-13b2-6bc111b5fd9a",
+  "timestamp": "2026-01-27T16:49:19.342847",
+  "patient_id": "55087eb9...",
+  "patient_age": 77,
+  "patient_gender": "female",
+  "provider_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "provider_npi": "1234567890",
+  "facility_name": "BRIGHAM AND WOMEN'S FAULKNER HOSPITAL, INC.",
+  "facility_type": "outpatient",
+  "service_date": "2025-10-25",
+  "submission_date": "2026-01-27",
+  "diagnosis_codes": [
+    {
+      "code": "314529007",
+      "system": "SNOMED",
+      "display": "Medication review due (situation)"
+    },
+    {
+      "code": "741062008",
+      "system": "SNOMED",
+      "display": "Not in labor force (finding)"
+    }
+  ],
+  "procedure_codes": [
+    {
+      "code": "99213",
+      "original_code": "185349003",
+      "system": "CPT",
+      "display": "Encounter for check up (procedure)"
+    },
+    {
+      "code": "314529007",
+      "original_code": "314529007",
+      "system": "SNOMED",
+      "display": "Medication review due (situation)"
+    },
+    {
+      "code": "99214",
+      "original_code": "430193006",
+      "system": "CPT",
+      "display": "Medication reconciliation (procedure)"
+    },
+    {
+      "code": "24321-2",
+      "original_code": "24321-2",
+      "system": "SNOMED",
+      "display": "Basic metabolic 2000 panel - Serum or Plasma"
+    },
+    {
+      "code": "24357-6",
+      "original_code": "24357-6",
+      "system": "SNOMED",
+      "display": "Urinalysis macro (dipstick) panel - Urine"
+    },
+    {
+      "code": "51990-0",
+      "original_code": "51990-0",
+      "system": "SNOMED",
+      "display": "Basic metabolic panel - Blood"
+    },
+    {
+      "code": "57698-3",
+      "original_code": "57698-3",
+      "system": "SNOMED",
+      "display": "Lipid panel with direct LDL - Serum or Plasma"
+    },
+    {
+      "code": "99406",
+      "original_code": "710824005",
+      "system": "CPT",
+      "display": "Assessment of health and social care needs (procedure)"
+    },
+    {
+      "code": "741062008",
+      "original_code": "741062008",
+      "system": "SNOMED",
+      "display": "Not in labor force (finding)"
+    },
+    {
+      "code": "710841007",
+      "original_code": "710841007",
+      "system": "SNOMED",
+      "display": "Assessment of anxiety (procedure)"
+    },
+    {
+      "code": "69737-5",
+      "original_code": "69737-5",
+      "system": "SNOMED",
+      "display": "Generalized anxiety disorder 7 item (GAD-7)"
+    },
+    {
+      "code": "762993000",
+      "original_code": "762993000",
+      "system": "SNOMED",
+      "display": "Assessment using Morse Fall Scale (procedure)"
+    },
+    {
+      "code": "59453-1",
+      "original_code": "59453-1",
+      "system": "SNOMED",
+      "display": "Morse Fall Scale panel"
+    },
+    {
+      "code": "171207006",
+      "original_code": "171207006",
+      "system": "SNOMED",
+      "display": "Depression screening (procedure)"
+    },
+    {
+      "code": "171207006",
+      "original_code": "171207006",
+      "system": "SNOMED",
+      "display": "Depression screening (procedure)"
+    },
+    {
+      "code": "55757-9",
+      "original_code": "55757-9",
+      "system": "SNOMED",
+      "display": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+    },
+    {
+      "code": "103697008",
+      "original_code": "103697008",
+      "system": "SNOMED",
+      "display": "Patient referral for dental care (procedure)"
+    }
+  ],
+  "modifiers": [],
+  "place_of_service": "22",
+  "billed_amount": 1030.97,
+  "currency": "USD",
+  "payer_name": "Aetna",
+  "payer_id": "aetna",
+  "plan_type": "HMO",
+  "prior_auth_number": null,
+  "prior_auth_required": false,
+  "clinical_notes_summary": null,
+  "risk_factors": [
+    "timely_filing_risk"
+  ],
+  "expected_denial_category": "timely_filing"
+}
