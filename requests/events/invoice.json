@@ -1,0 +1,7 @@
+{
+  "from_email": "john.doe@example.com",
+  "to_email": "support@techgear.com",
+  "sender": "John Doe",
+  "subject": "Request for invoice",
+  "body": "Hello, I purchased a TechGear Pro Laptop on August 15th, but I can't find the invoice in my email. Could you please send me a copy of the invoice for this purchase? My order number is TG20240815001. Thank you!"
+}

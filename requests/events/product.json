@@ -1,0 +1,7 @@
+{
+  "from_email": "sarah.smith@example.com",
+  "to_email": "support@techgear.com",
+  "sender": "Sarah Smith",
+  "subject": "Compatibility question",
+  "body": "Hi TechGear support, I'm considering buying your new TechGear SmartHome Hub, but I'm not sure if it's compatible with my existing smart devices. I have Philips Hue lights, a Nest thermostat, and Amazon Echo devices. Can you confirm if the SmartHome Hub will work with these? Thanks in advance for your help!"
+}

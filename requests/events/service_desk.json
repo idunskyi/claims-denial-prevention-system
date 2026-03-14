@@ -1,0 +1,7 @@
+{
+  "from_email": "alex.wong@techgear.com",
+  "to_email": "helpdesk@techgear.com",
+  "sender": "Alex Wong",
+  "subject": "Request for IT Service Desk Appointment",
+  "body": "Hello IT Service Desk, I've been experiencing frequent crashes on my work laptop, especially when using our design software. Could I schedule an appointment for someone to take a look at it? I'm available any afternoon this week. Thanks in advance for your help!"
+}

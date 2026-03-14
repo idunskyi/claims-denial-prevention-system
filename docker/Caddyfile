@@ -1,0 +1,8 @@
+https://launchpad.your-domain.com {
+	log {
+		output file /var/log/caddy/launchpad.log
+		format console
+		level info
+	}
+	reverse_proxy api:8080
+}
